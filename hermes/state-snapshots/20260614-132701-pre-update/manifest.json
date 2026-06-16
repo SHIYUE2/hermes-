@@ -1,0 +1,14 @@
+{
+  "id": "20260614-132701-pre-update",
+  "timestamp": "20260614-132701",
+  "label": "pre-update",
+  "file_count": 5,
+  "total_size": 11343396,
+  "files": {
+    "state.db": 11300864,
+    "config.yaml": 16905,
+    ".env": 23842,
+    "auth.json": 1783,
+    "processes.json": 2
+  }
+}

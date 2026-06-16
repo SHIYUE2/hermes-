@@ -1,0 +1,2973 @@
+
+=== hermes update started 2026-06-14T21:26:49 ===
+⚕ Updating Hermes Agent...
+
+→ Discarded npm lockfile churn (2 file(s))
+→ Fetching updates...
+→ Local changes detected — stashing before update...
+→ Found 208 new commit(s)
+  ✓ Pre-update snapshot: 20260614-132701-pre-update
+→ Pulling updates...
+  ⚠ Fast-forward not possible (history diverged), resetting to match remote...
+→ Restoring local changes...
+✗ Update pulled new code, but restoring local changes hit conflicts.
+Auto-merging tests/e2e/test_discord_adapter.py
+CONFLICT (content): Merge conflict in tests/e2e/test_discord_adapter.py
+Auto-merging tests/gateway/test_api_server_normalize.py
+CONFLICT (content): Merge conflict in tests/gateway/test_api_server_normalize.py
+Auto-merging tests/gateway/test_auto_continue.py
+CONFLICT (content): Merge conflict in tests/gateway/test_auto_continue.py
+Auto-merging tests/gateway/test_config.py
+CONFLICT (content): Merge conflict in tests/gateway/test_config.py
+Auto-merging tests/gateway/test_config_cwd_bridge.py
+CONFLICT (content): Merge conflict in tests/gateway/test_config_cwd_bridge.py
+Auto-merging tests/gateway/test_config_driven_access_policy.py
+CONFLICT (content): Merge conflict in tests/gateway/test_config_driven_access_policy.py
+Auto-merging tests/gateway/test_document_cache.py
+CONFLICT (content): Merge conflict in tests/gateway/test_document_cache.py
+Auto-merging tests/gateway/test_email.py
+CONFLICT (content): Merge conflict in tests/gateway/test_email.py
+Auto-merging tests/gateway/test_keep_typing_timeout.py
+CONFLICT (content): Merge conflict in tests/gateway/test_keep_typing_timeout.py
+Auto-merging tests/gateway/test_matrix.py
+CONFLICT (content): Merge conflict in tests/gateway/test_matrix.py
+Auto-merging tests/gateway/test_restart_resume_pending.py
+CONFLICT (content): Merge conflict in tests/gateway/test_restart_resume_pending.py
+Auto-merging tests/gateway/test_run_progress_topics.py
+CONFLICT (content): Merge conflict in tests/gateway/test_run_progress_topics.py
+Auto-merging tests/gateway/test_slack.py
+CONFLICT (content): Merge conflict in tests/gateway/test_slack.py
+Auto-merging tests/gateway/test_stream_consumer_draft.py
+CONFLICT (content): Merge conflict in tests/gateway/test_stream_consumer_draft.py
+Auto-merging tests/gateway/test_stream_consumer_fresh_final.py
+CONFLICT (content): Merge conflict in tests/gateway/test_stream_consumer_fresh_final.py
+Auto-merging tests/gateway/test_stream_consumer_thread_routing.py
+CONFLICT (content): Merge conflict in tests/gateway/test_stream_consumer_thread_routing.py
+Auto-merging tests/gateway/test_telegram_group_gating.py
+CONFLICT (content): Merge conflict in tests/gateway/test_telegram_group_gating.py
+Auto-merging tests/gateway/test_update_command.py
+CONFLICT (content): Merge conflict in tests/gateway/test_update_command.py
+Auto-merging tests/gateway/test_webhook_adapter.py
+CONFLICT (content): Merge conflict in tests/gateway/test_webhook_adapter.py
+Auto-merging tests/hermes_cli/test_apply_profile_override.py
+CONFLICT (content): Merge conflict in tests/hermes_cli/test_apply_profile_override.py
+Auto-merging tests/hermes_cli/test_auth_codex_provider.py
+CONFLICT (content): Merge conflict in tests/hermes_cli/test_auth_codex_provider.py
+Auto-merging tests/hermes_cli/test_cmd_update_docker.py
+CONFLICT (content): Merge conflict in tests/hermes_cli/test_cmd_update_docker.py
+Auto-merging tests/hermes_cli/test_dashboard_auth_gate.py
+CONFLICT (content): Merge conflict in tests/hermes_cli/test_dashboard_auth_gate.py
+Auto-merging tests/hermes_cli/test_dashboard_auth_status_endpoint.py
+CONFLICT (content): Merge conflict in tests/hermes_cli/test_dashboard_auth_status_endpoint.py
+Auto-merging tests/hermes_cli/test_detect_api_mode_for_url.py
+CONFLICT (content): Merge conflict in tests/hermes_cli/test_detect_api_mode_for_url.py
+Auto-merging tests/hermes_cli/test_doctor.py
+CONFLICT (content): Merge conflict in tests/hermes_cli/test_doctor.py
+Auto-merging tests/hermes_cli/test_gateway.py
+CONFLICT (content): Merge conflict in tests/hermes_cli/test_gateway.py
+Auto-merging tests/hermes_cli/test_gateway_service.py
+CONFLICT (content): Merge conflict in tests/hermes_cli/test_gateway_service.py
+Auto-merging tests/hermes_cli/test_gemini_provider.py
+CONFLICT (content): Merge conflict in tests/hermes_cli/test_gemini_provider.py
+Auto-merging tests/hermes_cli/test_mcp_catalog.py
+CONFLICT (content): Merge conflict in tests/hermes_cli/test_mcp_catalog.py
+Auto-merging tests/hermes_cli/test_model_normalize.py
+CONFLICT (content): Merge conflict in tests/hermes_cli/test_model_normalize.py
+Auto-merging tests/hermes_cli/test_model_switch_custom_providers.py
+CONFLICT (content): Merge conflict in tests/hermes_cli/test_model_switch_custom_providers.py
+Auto-merging tests/hermes_cli/test_model_validation.py
+CONFLICT (content): Merge conflict in tests/hermes_cli/test_model_validation.py
+Auto-merging tests/hermes_cli/test_plugins_cmd.py
+CONFLICT (content): Merge conflict in tests/hermes_cli/test_plugins_cmd.py
+Auto-merging tests/hermes_cli/test_profiles.py
+CONFLICT (content): Merge conflict in tests/hermes_cli/test_profiles.py
+Auto-merging tests/hermes_cli/test_send_cmd.py
+CONFLICT (content): Merge conflict in tests/hermes_cli/test_send_cmd.py
+Auto-merging tests/hermes_cli/test_subcommands_profile_gateway.py
+CONFLICT (content): Merge conflict in tests/hermes_cli/test_subcommands_profile_gateway.py
+Auto-merging tests/hermes_cli/test_telegram_managed_bot.py
+CONFLICT (content): Merge conflict in tests/hermes_cli/test_telegram_managed_bot.py
+Auto-merging tests/hermes_cli/test_update_concurrent_quarantine.py
+CONFLICT (content): Merge conflict in tests/hermes_cli/test_update_concurrent_quarantine.py
+Auto-merging tests/hermes_cli/test_web_oauth_dispatch.py
+CONFLICT (content): Merge conflict in tests/hermes_cli/test_web_oauth_dispatch.py
+Auto-merging tests/hermes_cli/test_web_server.py
+CONFLICT (content): Merge conflict in tests/hermes_cli/test_web_server.py
+Auto-merging tests/hermes_cli/test_web_server_files.py
+CONFLICT (content): Merge conflict in tests/hermes_cli/test_web_server_files.py
+Auto-merging tests/hermes_cli/test_web_server_skills_profiles.py
+CONFLICT (content): Merge conflict in tests/hermes_cli/test_web_server_skills_profiles.py
+Auto-merging tests/plugins/platforms/photon/test_setup_access.py
+CONFLICT (content): Merge conflict in tests/plugins/platforms/photon/test_setup_access.py
+Auto-merging tests/run_agent/test_compression_persistence.py
+CONFLICT (content): Merge conflict in tests/run_agent/test_compression_persistence.py
+Auto-merging tests/run_agent/test_image_shrink_recovery.py
+CONFLICT (content): Merge conflict in tests/run_agent/test_image_shrink_recovery.py
+Auto-merging tests/run_agent/test_message_sequence_repair.py
+CONFLICT (content): Merge conflict in tests/run_agent/test_message_sequence_repair.py
+Auto-merging tests/run_agent/test_run_agent.py
+CONFLICT (content): Merge conflict in tests/run_agent/test_run_agent.py
+Auto-merging tests/run_agent/test_run_agent_codex_responses.py
+CONFLICT (content): Merge conflict in tests/run_agent/test_run_agent_codex_responses.py
+Auto-merging tests/run_agent/test_thinking_only_sanitizer.py
+CONFLICT (content): Merge conflict in tests/run_agent/test_thinking_only_sanitizer.py
+Auto-merging tests/test_atomic_replace_symlinks.py
+CONFLICT (content): Merge conflict in tests/test_atomic_replace_symlinks.py
+Auto-merging tests/test_hermes_state.py
+CONFLICT (content): Merge conflict in tests/test_hermes_state.py
+Auto-merging tests/test_run_tests_parallel.py
+CONFLICT (content): Merge conflict in tests/test_run_tests_parallel.py
+Auto-merging tests/test_subprocess_home_isolation.py
+CONFLICT (content): Merge conflict in tests/test_subprocess_home_isolation.py
+Auto-merging tests/test_tui_gateway_server.py
+CONFLICT (content): Merge conflict in tests/test_tui_gateway_server.py
+Auto-merging tests/test_tui_gateway_ws.py
+CONFLICT (content): Merge conflict in tests/test_tui_gateway_ws.py
+Auto-merging tests/test_web_server.py
+CONFLICT (content): Merge conflict in tests/test_web_server.py
+Auto-merging tests/tools/test_approval.py
+CONFLICT (content): Merge conflict in tests/tools/test_approval.py
+Auto-merging tests/tools/test_code_execution.py
+CONFLICT (content): Merge conflict in tests/tools/test_code_execution.py
+Auto-merging tests/tools/test_credential_files.py
+CONFLICT (content): Merge conflict in tests/tools/test_credential_files.py
+Auto-merging tests/tools/test_file_operations.py
+CONFLICT (content): Merge conflict in tests/tools/test_file_operations.py
+Auto-merging tests/tools/test_mcp_probe.py
+CONFLICT (content): Merge conflict in tests/tools/test_mcp_probe.py
+Auto-merging tests/tools/test_mcp_stability.py
+CONFLICT (content): Merge conflict in tests/tools/test_mcp_stability.py
+Auto-merging tests/tools/test_process_registry.py
+CONFLICT (content): Merge conflict in tests/tools/test_process_registry.py
+Auto-merging tests/tools/test_skills_sync.py
+CONFLICT (content): Merge conflict in tests/tools/test_skills_sync.py
+Auto-merging tests/tools/test_write_deny.py
+CONFLICT (content): Merge conflict in tests/tools/test_write_deny.py
+Auto-merging tests/tui_gateway/test_make_agent_provider.py
+CONFLICT (content): Merge conflict in tests/tui_gateway/test_make_agent_provider.py
+Auto-merging tests/tui_gateway/test_protocol.py
+CONFLICT (content): Merge conflict in tests/tui_gateway/test_protocol.py
+Auto-merging tools/approval.py
+CONFLICT (content): Merge conflict in tools/approval.py
+Auto-merging tools/code_execution_tool.py
+CONFLICT (content): Merge conflict in tools/code_execution_tool.py
+Auto-merging tools/credential_files.py
+CONFLICT (content): Merge conflict in tools/credential_files.py
+Auto-merging tools/delegate_tool.py
+CONFLICT (content): Merge conflict in tools/delegate_tool.py
+Auto-merging tools/environments/local.py
+CONFLICT (content): Merge conflict in tools/environments/local.py
+Auto-merging tools/file_operations.py
+CONFLICT (content): Merge conflict in tools/file_operations.py
+Auto-merging tools/file_tools.py
+CONFLICT (content): Merge conflict in tools/file_tools.py
+Auto-merging tools/mcp_tool.py
+CONFLICT (content): Merge conflict in tools/mcp_tool.py
+Auto-merging tools/process_registry.py
+CONFLICT (content): Merge conflict in tools/process_registry.py
+Auto-merging tools/session_search_tool.py
+CONFLICT (content): Merge conflict in tools/session_search_tool.py
+Auto-merging tools/skills_sync.py
+CONFLICT (content): Merge conflict in tools/skills_sync.py
+Auto-merging tui_gateway/server.py
+CONFLICT (content): Merge conflict in tui_gateway/server.py
+Auto-merging tui_gateway/ws.py
+CONFLICT (content): Merge conflict in tui_gateway/ws.py
+Auto-merging utils.py
+CONFLICT (content): Merge conflict in utils.py
+Auto-merging uv.lock
+CONFLICT (content): Merge conflict in uv.lock
+Auto-merging web/src/i18n/af.ts
+CONFLICT (content): Merge conflict in web/src/i18n/af.ts
+Auto-merging web/src/i18n/de.ts
+CONFLICT (content): Merge conflict in web/src/i18n/de.ts
+Auto-merging web/src/i18n/en.ts
+CONFLICT (content): Merge conflict in web/src/i18n/en.ts
+Auto-merging web/src/i18n/es.ts
+CONFLICT (content): Merge conflict in web/src/i18n/es.ts
+Auto-merging web/src/i18n/fr.ts
+CONFLICT (content): Merge conflict in web/src/i18n/fr.ts
+Auto-merging web/src/i18n/ga.ts
+CONFLICT (content): Merge conflict in web/src/i18n/ga.ts
+Auto-merging web/src/i18n/hu.ts
+CONFLICT (content): Merge conflict in web/src/i18n/hu.ts
+Auto-merging web/src/i18n/it.ts
+CONFLICT (content): Merge conflict in web/src/i18n/it.ts
+Auto-merging web/src/i18n/ja.ts
+CONFLICT (content): Merge conflict in web/src/i18n/ja.ts
+Auto-merging web/src/i18n/ko.ts
+CONFLICT (content): Merge conflict in web/src/i18n/ko.ts
+Auto-merging web/src/i18n/pt.ts
+CONFLICT (content): Merge conflict in web/src/i18n/pt.ts
+Auto-merging web/src/i18n/ru.ts
+CONFLICT (content): Merge conflict in web/src/i18n/ru.ts
+Auto-merging web/src/i18n/tr.ts
+CONFLICT (content): Merge conflict in web/src/i18n/tr.ts
+Auto-merging web/src/i18n/types.ts
+CONFLICT (content): Merge conflict in web/src/i18n/types.ts
+Auto-merging web/src/i18n/uk.ts
+CONFLICT (content): Merge conflict in web/src/i18n/uk.ts
+Auto-merging web/src/i18n/zh-hant.ts
+CONFLICT (content): Merge conflict in web/src/i18n/zh-hant.ts
+Auto-merging web/src/i18n/zh.ts
+CONFLICT (content): Merge conflict in web/src/i18n/zh.ts
+Auto-merging web/src/lib/api.ts
+CONFLICT (content): Merge conflict in web/src/lib/api.ts
+Auto-merging web/src/pages/ModelsPage.tsx
+CONFLICT (content): Merge conflict in web/src/pages/ModelsPage.tsx
+Auto-merging web/src/pages/ProfileBuilderPage.tsx
+CONFLICT (content): Merge conflict in web/src/pages/ProfileBuilderPage.tsx
+Auto-merging web/src/pages/ProfilesPage.tsx
+CONFLICT (content): Merge conflict in web/src/pages/ProfilesPage.tsx
+Auto-merging web/src/pages/SessionsPage.tsx
+CONFLICT (content): Merge conflict in web/src/pages/SessionsPage.tsx
+Auto-merging website/docs/guides/automate-with-cron.md
+CONFLICT (content): Merge conflict in website/docs/guides/automate-with-cron.md
+Auto-merging website/docs/guides/cron-troubleshooting.md
+CONFLICT (content): Merge conflict in website/docs/guides/cron-troubleshooting.md
+Auto-merging website/docs/reference/cli-commands.md
+CONFLICT (content): Merge conflict in website/docs/reference/cli-commands.md
+Auto-merging website/docs/reference/environment-variables.md
+CONFLICT (content): Merge conflict in website/docs/reference/environment-variables.md
+Auto-merging website/docs/reference/faq.md
+CONFLICT (content): Merge conflict in website/docs/reference/faq.md
+Auto-merging website/docs/reference/profile-commands.md
+CONFLICT (content): Merge conflict in website/docs/reference/profile-commands.md
+Auto-merging website/docs/user-guide/configuration.md
+CONFLICT (content): Merge conflict in website/docs/user-guide/configuration.md
+Auto-merging website/docs/user-guide/docker.md
+CONFLICT (content): Merge conflict in website/docs/user-guide/docker.md
+Auto-merging website/docs/user-guide/features/cron.md
+CONFLICT (content): Merge conflict in website/docs/user-guide/features/cron.md
+Auto-merging website/docs/user-guide/features/delegation.md
+CONFLICT (content): Merge conflict in website/docs/user-guide/features/delegation.md
+Auto-merging website/docs/user-guide/features/hooks.md
+CONFLICT (content): Merge conflict in website/docs/user-guide/features/hooks.md
+Auto-merging website/docs/user-guide/messaging/index.md
+CONFLICT (content): Merge conflict in website/docs/user-guide/messaging/index.md
+Auto-merging website/docs/user-guide/messaging/photon.md
+CONFLICT (content): Merge conflict in website/docs/user-guide/messaging/photon.md
+Auto-merging website/docs/user-guide/messaging/telegram.md
+CONFLICT (content): Merge conflict in website/docs/user-guide/messaging/telegram.md
+Auto-merging website/docs/user-guide/profiles.md
+CONFLICT (content): Merge conflict in website/docs/user-guide/profiles.md
+Auto-merging website/docs/user-guide/skills/bundled/media/media-youtube-content.md
+CONFLICT (content): Merge conflict in website/docs/user-guide/skills/bundled/media/media-youtube-content.md
+Auto-merging website/docusaurus.config.ts
+CONFLICT (content): Merge conflict in website/docusaurus.config.ts
+Auto-merging website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/reference/cli-commands.md
+CONFLICT (content): Merge conflict in website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/reference/cli-commands.md
+Auto-merging website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/reference/faq.md
+CONFLICT (content): Merge conflict in website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/reference/faq.md
+Auto-merging website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/reference/profile-commands.md
+CONFLICT (content): Merge conflict in website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/reference/profile-commands.md
+Auto-merging website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/delegation.md
+CONFLICT (content): Merge conflict in website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/delegation.md
+Auto-merging website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/telegram.md
+CONFLICT (content): Merge conflict in website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/telegram.md
+Auto-merging website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/profiles.md
+CONFLICT (content): Merge conflict in website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/profiles.md
+Auto-merging website/package.json
+CONFLICT (content): Merge conflict in website/package.json
+Auto-merging website/static/api/model-catalog.json
+CONFLICT (content): Merge conflict in website/static/api/model-catalog.json
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   tests/docker/test_container_restart.py
+	modified:   tests/docker/test_dashboard.py
+	modified:   tests/docker/test_docker_exec_privilege_drop.py
+	modified:   tests/docker/test_dump_build_sha.py
+	modified:   tests/docker/test_gateway_run_supervised.py
+	modified:   tests/docker/test_main_invocation.py
+	modified:   tests/docker/test_profile_gateway.py
+	modified:   tests/docker/test_s6_profile_gateway_integration.py
+	modified:   tests/docker/test_tui_passthrough.py
+	modified:   tests/docker/test_tui_prebuilt_bundle.py
+	modified:   tests/docker/test_zombie_reaping.py
+	modified:   tests/e2e/conftest.py
+	modified:   tests/e2e/matrix_xsign_bootstrap/README.md
+	modified:   tests/e2e/matrix_xsign_bootstrap/docker-compose.yml
+	modified:   tests/e2e/matrix_xsign_bootstrap/test_bootstrap.py
+	modified:   tests/e2e/test_platform_commands.py
+	modified:   tests/fakes/fake_ha_server.py
+	modified:   tests/fixtures/plugins/example-dashboard/dashboard/manifest.json
+	modified:   tests/fixtures/plugins/example-dashboard/dashboard/plugin_api.py
+	modified:   tests/gateway/_plugin_adapter_loader.py
+	modified:   tests/gateway/conftest.py
+	modified:   tests/gateway/feishu_helpers.py
+	modified:   tests/gateway/platforms/test_yuanbao_recall_db_only.py
+	modified:   tests/gateway/restart_test_helpers.py
+	modified:   tests/gateway/test_42039_duplicate_user_message.py
+	modified:   tests/gateway/test_7100_transient_failure_transcript.py
+	modified:   tests/gateway/test_active_session_text_merge.py
+	modified:   tests/gateway/test_agent_cache.py
+	modified:   tests/gateway/test_allowed_channels_widening.py
+	modified:   tests/gateway/test_allowlist_startup_check.py
+	modified:   tests/gateway/test_api_server.py
+	modified:   tests/gateway/test_api_server_bind_guard.py
+	modified:   tests/gateway/test_api_server_jobs.py
+	modified:   tests/gateway/test_api_server_multimodal.py
+	modified:   tests/gateway/test_api_server_runs.py
+	modified:   tests/gateway/test_api_server_toolset.py
+	modified:   tests/gateway/test_approve_deny_commands.py
+	modified:   tests/gateway/test_auth_fallback.py
+	modified:   tests/gateway/test_auto_voice_reply_format.py
+	modified:   tests/gateway/test_background_command.py
+	modified:   tests/gateway/test_background_process_notifications.py
+	modified:   tests/gateway/test_base_topic_sessions.py
+	modified:   tests/gateway/test_bluebubbles.py
+	modified:   tests/gateway/test_bundles_command.py
+	modified:   tests/gateway/test_busy_session_ack.py
+	modified:   tests/gateway/test_busy_session_auth_bypass.py
+	modified:   tests/gateway/test_cancel_background_drain.py
+	modified:   tests/gateway/test_channel_directory.py
+	modified:   tests/gateway/test_clean_shutdown_marker.py
+	modified:   tests/gateway/test_command_bypass_active_session.py
+	modified:   tests/gateway/test_complete_path_at_filter.py
+	modified:   tests/gateway/test_compress_command.py
+	modified:   tests/gateway/test_compress_focus.py
+	modified:   tests/gateway/test_compress_plugin_engine.py
+	modified:   tests/gateway/test_compression_concurrent_sessions.py
+	modified:   tests/gateway/test_compression_session_id_persistence.py
+	modified:   tests/gateway/test_config_env_bridge_authority.py
+	modified:   tests/gateway/test_debug_command.py
+	modified:   tests/gateway/test_delivery.py
+	modified:   tests/gateway/test_delivery_silence_filter.py
+	modified:   tests/gateway/test_destructive_slash_confirm.py
+	modified:   tests/gateway/test_dingtalk.py
+	modified:   tests/gateway/test_discord_allowed_channels.py
+	modified:   tests/gateway/test_discord_allowed_mentions.py
+	modified:   tests/gateway/test_discord_attachment_download.py
+	modified:   tests/gateway/test_discord_bot_auth_bypass.py
+	modified:   tests/gateway/test_discord_bot_filter.py
+	modified:   tests/gateway/test_discord_channel_controls.py
+	modified:   tests/gateway/test_discord_channel_prompts.py
+	modified:   tests/gateway/test_discord_channel_skills.py
+	modified:   tests/gateway/test_discord_clarify_buttons.py
+	modified:   tests/gateway/test_discord_component_auth.py
+	modified:   tests/gateway/test_discord_connect.py
+	modified:   tests/gateway/test_discord_document_handling.py
+	modified:   tests/gateway/test_discord_free_response.py
+	modified:   tests/gateway/test_discord_imports.py
+	modified:   tests/gateway/test_discord_lazy_install_views.py
+	modified:   tests/gateway/test_discord_media_metadata.py
+	modified:   tests/gateway/test_discord_model_picker.py
+	modified:   tests/gateway/test_discord_opus.py
+	modified:   tests/gateway/test_discord_race_polish.py
+	modified:   tests/gateway/test_discord_reactions.py
+	modified:   tests/gateway/test_discord_reply_mode.py
+	modified:   tests/gateway/test_discord_roles_dm_scope.py
+	modified:   tests/gateway/test_discord_send.py
+	modified:   tests/gateway/test_discord_slash_auth.py
+	modified:   tests/gateway/test_discord_slash_commands.py
+	modified:   tests/gateway/test_discord_system_messages.py
+	modified:   tests/gateway/test_discord_thread_persistence.py
+	modified:   tests/gateway/test_discord_voice_mixer.py
+	modified:   tests/gateway/test_display_config.py
+	modified:   tests/gateway/test_dm_topics.py
+	modified:   tests/gateway/test_document_context_note.py
+	modified:   tests/gateway/test_duplicate_reply_suppression.py
+	modified:   tests/gateway/test_empty_model_recovery.py
+	modified:   tests/gateway/test_ephemeral_reply.py
+	modified:   tests/gateway/test_extract_local_files.py
+	modified:   tests/gateway/test_fallback_eviction.py
+	modified:   tests/gateway/test_fast_command.py
+	modified:   tests/gateway/test_feishu.py
+	modified:   tests/gateway/test_feishu_approval_buttons.py
+	modified:   tests/gateway/test_feishu_bot_admission.py
+	modified:   tests/gateway/test_feishu_bot_auth_bypass.py
+	modified:   tests/gateway/test_feishu_comment.py
+	modified:   tests/gateway/test_feishu_comment_rules.py
+	modified:   tests/gateway/test_feishu_meeting_invite.py
+	modified:   tests/gateway/test_feishu_onboard.py
+	modified:   tests/gateway/test_fresh_reset_skill_injection.py
+	modified:   tests/gateway/test_gateway_command_help.py
+	modified:   tests/gateway/test_gateway_inactivity_timeout.py
+	modified:   tests/gateway/test_gateway_shutdown.py
+	modified:   tests/gateway/test_goal_max_turns_config.py
+	modified:   tests/gateway/test_goal_status_notice.py
+	modified:   tests/gateway/test_goal_verdict_send.py
+	modified:   tests/gateway/test_google_chat.py
+	modified:   tests/gateway/test_home_target_env_var.py
+	modified:   tests/gateway/test_homeassistant.py
+	modified:   tests/gateway/test_hooks.py
+	modified:   tests/gateway/test_insights_unicode_flags.py
+	modified:   tests/gateway/test_internal_event_bypass_pairing.py
+	modified:   tests/gateway/test_interrupt_key_match.py
+	modified:   tests/gateway/test_irc_adapter.py
+	modified:   tests/gateway/test_kanban_notifier.py
+	modified:   tests/gateway/test_kanban_notifier_watcher_dispatch_gate.py
+	modified:   tests/gateway/test_kanban_watchers_mixin.py
+	modified:   tests/gateway/test_line_plugin.py
+	modified:   tests/gateway/test_load_transcript_db_only.py
+	modified:   tests/gateway/test_loop_exception_handler.py
+	modified:   tests/gateway/test_matrix_approval_reaction_fail_closed.py
+	modified:   tests/gateway/test_matrix_exec_approval.py
+	modified:   tests/gateway/test_matrix_mention.py
+	modified:   tests/gateway/test_matrix_project_context_isolation.py
+	modified:   tests/gateway/test_matrix_voice.py
+	modified:   tests/gateway/test_mattermost.py
+	modified:   tests/gateway/test_max_concurrent_sessions.py
+	modified:   tests/gateway/test_max_tokens_propagation.py
+	modified:   tests/gateway/test_mcp_reload_refreshes_cached_agents.py
+	modified:   tests/gateway/test_media_download_retry.py
+	modified:   tests/gateway/test_media_extraction.py
+	modified:   tests/gateway/test_memory_monitor.py
+	modified:   tests/gateway/test_message_deduplicator.py
+	modified:   tests/gateway/test_mirror.py
+	modified:   tests/gateway/test_model_command_custom_providers.py
+	modified:   tests/gateway/test_model_command_expensive_confirm.py
+	modified:   tests/gateway/test_model_command_flat_string_config.py
+	modified:   tests/gateway/test_model_switch_persistence.py
+	modified:   tests/gateway/test_msgraph_webhook.py
+	modified:   tests/gateway/test_native_image_buffer_isolation.py
+	modified:   tests/gateway/test_notice_delivery.py
+	modified:   tests/gateway/test_notice_rendering.py
+	modified:   tests/gateway/test_ntfy_plugin.py
+	modified:   tests/gateway/test_pairing.py
+	modified:   tests/gateway/test_pending_drain_no_recursion.py
+	modified:   tests/gateway/test_pending_drain_race.py
+	modified:   tests/gateway/test_pending_event_none.py
+	modified:   tests/gateway/test_per_platform_streaming_defaults.py
+	modified:   tests/gateway/test_pii_redaction.py
+	modified:   tests/gateway/test_planned_stop_watcher.py
+	modified:   tests/gateway/test_platform_base.py
+	modified:   tests/gateway/test_platform_connected_checkers.py
+	modified:   tests/gateway/test_platform_http_client_limits.py
+	modified:   tests/gateway/test_platform_reconnect.py
+	modified:   tests/gateway/test_platform_reconnect_fd_leak.py
+	modified:   tests/gateway/test_platform_registry.py
+	modified:   tests/gateway/test_plugin_platform_interface.py
+	modified:   tests/gateway/test_post_delivery_callback_chaining.py
+	modified:   tests/gateway/test_pre_gateway_dispatch.py
+	modified:   tests/gateway/test_proxy_mode.py
+	modified:   tests/gateway/test_qqbot.py
+	modified:   tests/gateway/test_queue_consumption.py
+	modified:   tests/gateway/test_reasoning_command.py
+	modified:   tests/gateway/test_reload_skills_command.py
+	modified:   tests/gateway/test_reload_skills_discord_resync.py
+	modified:   tests/gateway/test_replay_entry_fields.py
+	modified:   tests/gateway/test_reply_to_injection.py
+	modified:   tests/gateway/test_restart_drain.py
+	modified:   tests/gateway/test_restart_notification.py
+	modified:   tests/gateway/test_restart_redelivery_dedup.py
+	modified:   tests/gateway/test_resume_command.py
+	modified:   tests/gateway/test_retry_replacement.py
+	modified:   tests/gateway/test_retry_response.py
+	modified:   tests/gateway/test_run_cleanup_progress.py
+	modified:   tests/gateway/test_run_progress_interrupt.py
+	modified:   tests/gateway/test_run_tool_media_re.py
+	modified:   tests/gateway/test_runner_fatal_adapter.py
+	modified:   tests/gateway/test_runner_startup_failures.py
+	modified:   tests/gateway/test_running_agent_session_toggles.py
+	modified:   tests/gateway/test_runtime_config_env_expansion.py
+	modified:   tests/gateway/test_runtime_env_reload_config_authority.py
+	modified:   tests/gateway/test_runtime_footer.py
+	modified:   tests/gateway/test_safe_adapter_disconnect.py
+	modified:   tests/gateway/test_send_image_file.py
+	modified:   tests/gateway/test_send_multiple_images.py
+	modified:   tests/gateway/test_send_retry.py
+	modified:   tests/gateway/test_send_voice_reply_notify.py
+	modified:   tests/gateway/test_session.py
+	modified:   tests/gateway/test_session_api.py
+	modified:   tests/gateway/test_session_boundary_hooks.py
+	modified:   tests/gateway/test_session_boundary_security_state.py
+	modified:   tests/gateway/test_session_dm_thread_seeding.py
+	modified:   tests/gateway/test_session_env.py
+	modified:   tests/gateway/test_session_hygiene.py
+	modified:   tests/gateway/test_session_info.py
+	modified:   tests/gateway/test_session_list_allowed_sources.py
+	modified:   tests/gateway/test_session_model_override_routing.py
+	modified:   tests/gateway/test_session_model_reset.py
+	modified:   tests/gateway/test_session_override_thread_recovery.py
+	modified:   tests/gateway/test_session_race_guard.py
+	modified:   tests/gateway/test_session_reset_notify.py
+	modified:   tests/gateway/test_session_split_brain_11016.py
+	modified:   tests/gateway/test_session_state_cleanup.py
+	modified:   tests/gateway/test_session_store_prune.py
+	modified:   tests/gateway/test_setup_feishu.py
+	modified:   tests/gateway/test_shared_group_sender_prefix.py
+	modified:   tests/gateway/test_shutdown_cache_cleanup.py
+	modified:   tests/gateway/test_shutdown_forensics.py
+	modified:   tests/gateway/test_shutdown_memory_provider_messages.py
+	modified:   tests/gateway/test_signal.py
+	modified:   tests/gateway/test_signal_format.py
+	modified:   tests/gateway/test_signal_rate_limit.py
+	modified:   tests/gateway/test_simplex_plugin.py
+	modified:   tests/gateway/test_slack_approval_buttons.py
+	modified:   tests/gateway/test_slack_channel_session_scope.py
+	modified:   tests/gateway/test_slack_channel_skills.py
+	modified:   tests/gateway/test_slack_mention.py
+	modified:   tests/gateway/test_slack_plugin_action_handlers.py
+	modified:   tests/gateway/test_slash_access.py
+	modified:   tests/gateway/test_slash_access_dispatch.py
+	modified:   tests/gateway/test_sms.py
+	modified:   tests/gateway/test_sse_agent_cancel.py
+	modified:   tests/gateway/test_ssl_cert_detection.py
+	modified:   tests/gateway/test_ssl_certs.py
+	modified:   tests/gateway/test_status.py
+	modified:   tests/gateway/test_status_command.py
+	modified:   tests/gateway/test_steer_command.py
+	modified:   tests/gateway/test_step_callback_compat.py
+	modified:   tests/gateway/test_sticker_cache.py
+	modified:   tests/gateway/test_stop_thread_sibling.py
+	modified:   tests/gateway/test_stream_consumer.py
+	modified:   tests/gateway/test_stream_events.py
+	modified:   tests/gateway/test_stt_config.py
+	modified:   tests/gateway/test_stuck_loop.py
+	modified:   tests/gateway/test_subagent_protection_30170.py
+	modified:   tests/gateway/test_teams.py
+	modified:   tests/gateway/test_teams_pipeline_runtime_wiring.py
+	modified:   tests/gateway/test_telegram_approval_buttons.py
+	modified:   tests/gateway/test_telegram_audio_vs_voice.py
+	modified:   tests/gateway/test_telegram_callback_auth_fail_closed.py
+	modified:   tests/gateway/test_telegram_caption_merge.py
+	modified:   tests/gateway/test_telegram_channel_posts.py
+	modified:   tests/gateway/test_telegram_clarify_buttons.py
+	modified:   tests/gateway/test_telegram_conflict.py
+	modified:   tests/gateway/test_telegram_documents.py
+	modified:   tests/gateway/test_telegram_format.py
+	modified:   tests/gateway/test_telegram_forum_commands.py
+	modified:   tests/gateway/test_telegram_max_doc_bytes.py
+	modified:   tests/gateway/test_telegram_mention_boundaries.py
+	modified:   tests/gateway/test_telegram_model_picker.py
+	modified:   tests/gateway/test_telegram_network.py
+	modified:   tests/gateway/test_telegram_network_reconnect.py
+	modified:   tests/gateway/test_telegram_noise_filter.py
+	modified:   tests/gateway/test_telegram_overflow_partial.py
+	modified:   tests/gateway/test_telegram_photo_interrupts.py
+	modified:   tests/gateway/test_telegram_progress_edit_transient.py
+	modified:   tests/gateway/test_telegram_reactions.py
+	modified:   tests/gateway/test_telegram_reply_mode.py
+	modified:   tests/gateway/test_telegram_reply_quote.py
+	modified:   tests/gateway/test_telegram_send_draft_format.py
+	modified:   tests/gateway/test_telegram_send_path_health.py
+	modified:   tests/gateway/test_telegram_slash_confirm.py
+	modified:   tests/gateway/test_telegram_status_update.py
+	modified:   tests/gateway/test_telegram_text_batch_perf.py
+	modified:   tests/gateway/test_telegram_text_batching.py
+	modified:   tests/gateway/test_telegram_thread_fallback.py
+	modified:   tests/gateway/test_telegram_topic_mode.py
+	modified:   tests/gateway/test_telegram_voice_v0_regressions.py
+	modified:   tests/gateway/test_telegram_webhook_secret.py
+	modified:   tests/gateway/test_text_batching.py
+	modified:   tests/gateway/test_title_command.py
+	modified:   tests/gateway/test_tool_response_drop_recovery.py
+	modified:   tests/gateway/test_transcript_offset.py
+	modified:   tests/gateway/test_tts_media_routing.py
+	modified:   tests/gateway/test_unauthorized_dm_behavior.py
+	modified:   tests/gateway/test_unavailable_skill_hint.py
+	modified:   tests/gateway/test_undo_rewind_session.py
+	modified:   tests/gateway/test_unknown_command.py
+	modified:   tests/gateway/test_update_streaming.py
+	modified:   tests/gateway/test_usage_command.py
+	modified:   tests/gateway/test_verbose_command.py
+	modified:   tests/gateway/test_version_command.py
+	modified:   tests/gateway/test_vision_memory_leak.py
+	modified:   tests/gateway/test_voice_command.py
+	modified:   tests/gateway/test_voice_mode_platform_isolation.py
+	modified:   tests/gateway/test_weak_credential_guard.py
+	modified:   tests/gateway/test_webhook_deliver_only.py
+	modified:   tests/gateway/test_webhook_dynamic_routes.py
+	modified:   tests/gateway/test_webhook_integration.py
+	modified:   tests/gateway/test_webhook_signature_rate_limit.py
+	modified:   tests/gateway/test_wecom.py
+	modified:   tests/gateway/test_wecom_callback.py
+	modified:   tests/gateway/test_weixin.py
+	modified:   tests/gateway/test_weixin_typing.py
+	modified:   tests/gateway/test_whatsapp_cloud.py
+	modified:   tests/gateway/test_whatsapp_connect.py
+	modified:   tests/gateway/test_whatsapp_formatting.py
+	modified:   tests/gateway/test_whatsapp_group_gating.py
+	modified:   tests/gateway/test_whatsapp_reply_prefix.py
+	modified:   tests/gateway/test_whatsapp_stale_bridge.py
+	modified:   tests/gateway/test_whatsapp_text_batching.py
+	modified:   tests/gateway/test_ws_auth_retry.py
+	modified:   tests/gateway/test_yolo_command.py
+	modified:   tests/hermes_cli/conftest.py
+	modified:   tests/hermes_cli/conftest_dashboard_auth.py
+	modified:   tests/hermes_cli/test_active_sessions.py
+	modified:   tests/hermes_cli/test_anthropic_model_flow_stale_oauth.py
+	modified:   tests/hermes_cli/test_anthropic_oauth_flow.py
+	modified:   tests/hermes_cli/test_anthropic_picker_curated.py
+	modified:   tests/hermes_cli/test_anthropic_provider_persistence.py
+	modified:   tests/hermes_cli/test_api_key_providers.py
+	modified:   tests/hermes_cli/test_apply_model_switch_result_context.py
+	modified:   tests/hermes_cli/test_arcee_provider.py
+	modified:   tests/hermes_cli/test_argparse_flag_propagation.py
+	modified:   tests/hermes_cli/test_at_context_completion_filter.py
+	modified:   tests/hermes_cli/test_atomic_json_write.py
+	modified:   tests/hermes_cli/test_atomic_yaml_write.py
+	modified:   tests/hermes_cli/test_auth_commands.py
+	modified:   tests/hermes_cli/test_auth_loopback_ssh_hint.py
+	modified:   tests/hermes_cli/test_auth_manual_paste.py
+	modified:   tests/hermes_cli/test_auth_nous_provider.py
+	modified:   tests/hermes_cli/test_auth_profile_fallback.py
+	modified:   tests/hermes_cli/test_auth_provider_gate.py
+	modified:   tests/hermes_cli/test_auth_qwen_provider.py
+	modified:   tests/hermes_cli/test_auth_ssl_macos.py
+	modified:   tests/hermes_cli/test_auth_toctou_file_modes.py
+	modified:   tests/hermes_cli/test_auth_usable_secret.py
+	modified:   tests/hermes_cli/test_auth_xai_oauth_provider.py
+	modified:   tests/hermes_cli/test_aux_config.py
+	modified:   tests/hermes_cli/test_azure_detect.py
+	modified:   tests/hermes_cli/test_azure_foundry_entra.py
+	modified:   tests/hermes_cli/test_backup.py
+	modified:   tests/hermes_cli/test_banner.py
+	modified:   tests/hermes_cli/test_banner_git_state.py
+	modified:   tests/hermes_cli/test_banner_pip_update.py
+	modified:   tests/hermes_cli/test_banner_skills.py
+	modified:   tests/hermes_cli/test_bedrock_model_picker.py
+	modified:   tests/hermes_cli/test_build_info.py
+	modified:   tests/hermes_cli/test_bundles.py
+	modified:   tests/hermes_cli/test_chat_skills_flag.py
+	modified:   tests/hermes_cli/test_claw.py
+	modified:   tests/hermes_cli/test_clear_stale_base_url.py
+	modified:   tests/hermes_cli/test_cli_active_session_limit.py
+	modified:   tests/hermes_cli/test_cli_output.py
+	modified:   tests/hermes_cli/test_cmd_update.py
+	modified:   tests/hermes_cli/test_coalesce_session_args.py
+	modified:   tests/hermes_cli/test_codex_cli_model_picker.py
+	modified:   tests/hermes_cli/test_codex_models.py
+	modified:   tests/hermes_cli/test_codex_runtime_plugin_migration.py
+	modified:   tests/hermes_cli/test_codex_runtime_switch.py
+	modified:   tests/hermes_cli/test_commands.py
+	modified:   tests/hermes_cli/test_completion.py
+	modified:   tests/hermes_cli/test_config.py
+	modified:   tests/hermes_cli/test_config_drift.py
+	modified:   tests/hermes_cli/test_config_env_expansion.py
+	modified:   tests/hermes_cli/test_config_env_refs.py
+	modified:   tests/hermes_cli/test_config_validation.py
+	modified:   tests/hermes_cli/test_container_aware_cli.py
+	modified:   tests/hermes_cli/test_container_boot.py
+	modified:   tests/hermes_cli/test_copilot_auth.py
+	modified:   tests/hermes_cli/test_copilot_catalog_oauth_fallback.py
+	modified:   tests/hermes_cli/test_copilot_context.py
+	modified:   tests/hermes_cli/test_copilot_in_model_list.py
+	modified:   tests/hermes_cli/test_copilot_token_exchange.py
+	modified:   tests/hermes_cli/test_cron.py
+	modified:   tests/hermes_cli/test_cron_parser_builder.py
+	modified:   tests/hermes_cli/test_curator_archive_prune.py
+	modified:   tests/hermes_cli/test_curator_recent_run_notice.py
+	modified:   tests/hermes_cli/test_curator_run.py
+	modified:   tests/hermes_cli/test_curator_status.py
+	modified:   tests/hermes_cli/test_curses_arrow_keys.py
+	modified:   tests/hermes_cli/test_curses_color_compat.py
+	modified:   tests/hermes_cli/test_curses_ui_fuzzy_rank.py
+	modified:   tests/hermes_cli/test_curses_ui_search.py
+	modified:   tests/hermes_cli/test_custom_provider_context_length.py
+	modified:   tests/hermes_cli/test_custom_provider_model_switch.py
+	modified:   tests/hermes_cli/test_dashboard_admin_endpoints.py
+	modified:   tests/hermes_cli/test_dashboard_auth_401_reauth.py
+	modified:   tests/hermes_cli/test_dashboard_auth_audit.py
+	modified:   tests/hermes_cli/test_dashboard_auth_cookies.py
+	modified:   tests/hermes_cli/test_dashboard_auth_middleware.py
+	modified:   tests/hermes_cli/test_dashboard_auth_password_login.py
+	modified:   tests/hermes_cli/test_dashboard_auth_plugin_hook.py
+	modified:   tests/hermes_cli/test_dashboard_auth_prefix.py
+	modified:   tests/hermes_cli/test_dashboard_auth_provider_base.py
+	modified:   tests/hermes_cli/test_dashboard_auth_stub_provider.py
+	modified:   tests/hermes_cli/test_dashboard_auth_ws_auth.py
+	modified:   tests/hermes_cli/test_dashboard_auth_ws_tickets.py
+	modified:   tests/hermes_cli/test_dashboard_browser_safe_imports.py
+	modified:   tests/hermes_cli/test_dashboard_lifecycle_flags.py
+	modified:   tests/hermes_cli/test_dashboard_profiles_nav_label.py
+	modified:   tests/hermes_cli/test_dashboard_register.py
+	modified:   tests/hermes_cli/test_dashboard_tui_backcompat.py
+	modified:   tests/hermes_cli/test_dashboard_unified_launch.py
+	modified:   tests/hermes_cli/test_debug.py
+	modified:   tests/hermes_cli/test_default_interface_resolution.py
+	modified:   tests/hermes_cli/test_dep_ensure.py
+	modified:   tests/hermes_cli/test_deprecated_cwd_warning.py
+	modified:   tests/hermes_cli/test_destructive_slash_confirm_gate.py
+	modified:   tests/hermes_cli/test_determine_api_mode_hostname.py
+	modified:   tests/hermes_cli/test_dingtalk_auth.py
+	modified:   tests/hermes_cli/test_discord_skill_clamp_warning.py
+	modified:   tests/hermes_cli/test_doctor_command_install.py
+	modified:   tests/hermes_cli/test_doctor_dedicated_provider_skip.py
+	modified:   tests/hermes_cli/test_dump_git_commit.py
+	modified:   tests/hermes_cli/test_ensure_hermes_home_uid_34107.py
+	modified:   tests/hermes_cli/test_ensure_utf8_locale.py
+	modified:   tests/hermes_cli/test_env_load_cache.py
+	modified:   tests/hermes_cli/test_env_loader.py
+	modified:   tests/hermes_cli/test_env_sanitize_on_load.py
+	modified:   tests/hermes_cli/test_fallback_cmd.py
+	modified:   tests/hermes_cli/test_gateway_linger.py
+	modified:   tests/hermes_cli/test_gateway_platform_gating.py
+	modified:   tests/hermes_cli/test_gateway_proc_fallback.py
+	modified:   tests/hermes_cli/test_gateway_restart_loop.py
+	modified:   tests/hermes_cli/test_gateway_runtime_health.py
+	modified:   tests/hermes_cli/test_gateway_s6_dispatch.py
+	modified:   tests/hermes_cli/test_gateway_service_paths.py
+	modified:   tests/hermes_cli/test_gateway_windows.py
+	modified:   tests/hermes_cli/test_gateway_wsl.py
+	modified:   tests/hermes_cli/test_gemini_free_tier_setup_block.py
+	modified:   tests/hermes_cli/test_gmi_provider.py
+	modified:   tests/hermes_cli/test_goals.py
+	modified:   tests/hermes_cli/test_graphical_browser_detection.py
+	modified:   tests/hermes_cli/test_gui_command.py
+	modified:   tests/hermes_cli/test_gui_uninstall.py
+	modified:   tests/hermes_cli/test_hooks_cli.py
+	modified:   tests/hermes_cli/test_ignore_user_config_flags.py
+	modified:   tests/hermes_cli/test_image_gen_picker.py
+	modified:   tests/hermes_cli/test_install_cua_driver.py
+	modified:   tests/hermes_cli/test_inventory.py
+	modified:   tests/hermes_cli/test_inventory_pricing.py
+	modified:   tests/hermes_cli/test_kanban_blocked_sticky.py
+	modified:   tests/hermes_cli/test_kanban_boards.py
+	modified:   tests/hermes_cli/test_kanban_cli.py
+	modified:   tests/hermes_cli/test_kanban_cli_dispatch_passthrough.py
+	modified:   tests/hermes_cli/test_kanban_core_functionality.py
+	modified:   tests/hermes_cli/test_kanban_db.py
+	modified:   tests/hermes_cli/test_kanban_db_init.py
+	modified:   tests/hermes_cli/test_kanban_decompose.py
+	modified:   tests/hermes_cli/test_kanban_decompose_db.py
+	modified:   tests/hermes_cli/test_kanban_default_assignee.py
+	modified:   tests/hermes_cli/test_kanban_diagnostics.py
+	modified:   tests/hermes_cli/test_kanban_goal_mode.py
+	modified:   tests/hermes_cli/test_kanban_notify.py
+	modified:   tests/hermes_cli/test_kanban_per_profile_cap.py
+	modified:   tests/hermes_cli/test_kanban_promote.py
+	modified:   tests/hermes_cli/test_kanban_specify.py
+	modified:   tests/hermes_cli/test_kanban_specify_db.py
+	modified:   tests/hermes_cli/test_kanban_swarm.py
+	modified:   tests/hermes_cli/test_kanban_worker_image_extraction.py
+	modified:   tests/hermes_cli/test_launcher.py
+	modified:   tests/hermes_cli/test_list_picker_providers.py
+	modified:   tests/hermes_cli/test_logs.py
+	modified:   tests/hermes_cli/test_managed_installs.py
+	modified:   tests/hermes_cli/test_managed_uv.py
+	modified:   tests/hermes_cli/test_mcp_add_command_dest.py
+	modified:   tests/hermes_cli/test_mcp_config.py
+	modified:   tests/hermes_cli/test_mcp_reload_confirm_gate.py
+	modified:   tests/hermes_cli/test_mcp_startup.py
+	modified:   tests/hermes_cli/test_mcp_tools_config.py
+	modified:   tests/hermes_cli/test_memory_reset.py
+	modified:   tests/hermes_cli/test_memory_setup_provider_arg.py
+	modified:   tests/hermes_cli/test_migrate_xai.py
+	modified:   tests/hermes_cli/test_model_catalog.py
+	modified:   tests/hermes_cli/test_model_cost_guard.py
+	modified:   tests/hermes_cli/test_model_picker_expensive_confirm.py
+	modified:   tests/hermes_cli/test_model_picker_viewport.py
+	modified:   tests/hermes_cli/test_model_provider_persistence.py
+	modified:   tests/hermes_cli/test_model_switch_context_display.py
+	modified:   tests/hermes_cli/test_model_switch_copilot_api_mode.py
+	modified:   tests/hermes_cli/test_model_switch_opencode_anthropic.py
+	modified:   tests/hermes_cli/test_model_switch_variant_tags.py
+	modified:   tests/hermes_cli/test_models.py
+	modified:   tests/hermes_cli/test_models_dev_preferred_merge.py
+	modified:   tests/hermes_cli/test_non_ascii_credential.py
+	modified:   tests/hermes_cli/test_nous_account.py
+	modified:   tests/hermes_cli/test_nous_auth_status_cache.py
+	modified:   tests/hermes_cli/test_nous_hermes_non_agentic.py
+	modified:   tests/hermes_cli/test_nous_inference_url_validation.py
+	modified:   tests/hermes_cli/test_nous_subscription.py
+	modified:   tests/hermes_cli/test_ollama_cloud_auth.py
+	modified:   tests/hermes_cli/test_ollama_cloud_provider.py
+	modified:   tests/hermes_cli/test_openai_codex_model_validation_fallback.py
+	modified:   tests/hermes_cli/test_openai_picker_curated.py
+	modified:   tests/hermes_cli/test_opencode_go_flat_namespace.py
+	modified:   tests/hermes_cli/test_opencode_go_in_model_list.py
+	modified:   tests/hermes_cli/test_opencode_go_validation_fallback.py
+	modified:   tests/hermes_cli/test_overlay_slug_resolution.py
+	modified:   tests/hermes_cli/test_path_completion.py
+	modified:   tests/hermes_cli/test_picker_prewarm.py
+	modified:   tests/hermes_cli/test_pin_kanban_board_env.py
+	modified:   tests/hermes_cli/test_pip_install_detection.py
+	modified:   tests/hermes_cli/test_placeholder_usage.py
+	modified:   tests/hermes_cli/test_plugin_auxiliary_tasks.py
+	modified:   tests/hermes_cli/test_plugin_cli_registration.py
+	modified:   tests/hermes_cli/test_plugin_scanner_recursion.py
+	modified:   tests/hermes_cli/test_plugins.py
+	modified:   tests/hermes_cli/test_plugins_cmd_category_discovery.py
+	modified:   tests/hermes_cli/test_plugins_cmd_enable_disable_nested.py
+	modified:   tests/hermes_cli/test_plugins_cmd_list.py
+	modified:   tests/hermes_cli/test_plugins_transcription_registration.py
+	modified:   tests/hermes_cli/test_plugins_tts_registration.py
+	modified:   tests/hermes_cli/test_post_setup_gating.py
+	modified:   tests/hermes_cli/test_profile_describer.py
+	modified:   tests/hermes_cli/test_profile_distribution.py
+	modified:   tests/hermes_cli/test_profile_export_credentials.py
+	modified:   tests/hermes_cli/test_profiles_s6_hooks.py
+	modified:   tests/hermes_cli/test_project_plugin_rce_bypass.py
+	modified:   tests/hermes_cli/test_prompt_api_key.py
+	modified:   tests/hermes_cli/test_prompt_size.py
+	modified:   tests/hermes_cli/test_provider_config_validation.py
+	modified:   tests/hermes_cli/test_provider_groups.py
+	modified:   tests/hermes_cli/test_proxy.py
+	modified:   tests/hermes_cli/test_psutil_android_extract.py
+	modified:   tests/hermes_cli/test_pty_bridge.py
+	modified:   tests/hermes_cli/test_reasoning_effort_menu.py
+	modified:   tests/hermes_cli/test_redact_config_bridge.py
+	modified:   tests/hermes_cli/test_regression_16767.py
+	modified:   tests/hermes_cli/test_relaunch.py
+	modified:   tests/hermes_cli/test_resolve_last_session.py
+	modified:   tests/hermes_cli/test_resolve_provider_openrouter_pool.py
+	modified:   tests/hermes_cli/test_run_with_idle_timeout.py
+	modified:   tests/hermes_cli/test_runtime_provider_resolution.py
+	modified:   tests/hermes_cli/test_secret_prompt.py
+	modified:   tests/hermes_cli/test_secrets_bitwarden_non_tty.py
+	modified:   tests/hermes_cli/test_security_advisories.py
+	modified:   tests/hermes_cli/test_security_audit.py
+	modified:   tests/hermes_cli/test_service_manager.py
+	modified:   tests/hermes_cli/test_session_browse.py
+	modified:   tests/hermes_cli/test_session_handoff.py
+	modified:   tests/hermes_cli/test_session_recap.py
+	modified:   tests/hermes_cli/test_sessions_delete.py
+	modified:   tests/hermes_cli/test_set_config_value.py
+	modified:   tests/hermes_cli/test_setup.py
+	modified:   tests/hermes_cli/test_setup_agent_settings.py
+	modified:   tests/hermes_cli/test_setup_hermes_script.py
+	modified:   tests/hermes_cli/test_setup_irc.py
+	modified:   tests/hermes_cli/test_setup_matrix_e2ee.py
+	modified:   tests/hermes_cli/test_setup_menu_curses_migration.py
+	modified:   tests/hermes_cli/test_setup_model_provider.py
+	modified:   tests/hermes_cli/test_setup_noninteractive.py
+	modified:   tests/hermes_cli/test_setup_ollama_cloud_force_refresh.py
+	modified:   tests/hermes_cli/test_setup_openclaw_migration.py
+	modified:   tests/hermes_cli/test_setup_prompt_menus.py
+	modified:   tests/hermes_cli/test_setup_reconfigure.py
+	modified:   tests/hermes_cli/test_signal_handler_kanban_worker.py
+	modified:   tests/hermes_cli/test_skills_config.py
+	modified:   tests/hermes_cli/test_skills_hub.py
+	modified:   tests/hermes_cli/test_skills_install_flags.py
+	modified:   tests/hermes_cli/test_skills_skip_confirm.py
+	modified:   tests/hermes_cli/test_skills_subparser.py
+	modified:   tests/hermes_cli/test_skin_engine.py
+	modified:   tests/hermes_cli/test_slack_cli.py
+	modified:   tests/hermes_cli/test_spotify_auth.py
+	modified:   tests/hermes_cli/test_startup_plugin_gating.py
+	modified:   tests/hermes_cli/test_status.py
+	modified:   tests/hermes_cli/test_status_model_provider.py
+	modified:   tests/hermes_cli/test_subcommands_batch.py
+	modified:   tests/hermes_cli/test_subcommands_followup.py
+	modified:   tests/hermes_cli/test_subparser_routing_fallback.py
+	modified:   tests/hermes_cli/test_subprocess_timeouts.py
+	modified:   tests/hermes_cli/test_suppress_eio_on_interrupt.py
+	modified:   tests/hermes_cli/test_system_stats_platform.py
+	modified:   tests/hermes_cli/test_systemd_optional_directives.py
+	modified:   tests/hermes_cli/test_teams_pipeline_plugin_cli.py
+	modified:   tests/hermes_cli/test_tencent_tokenhub_provider.py
+	modified:   tests/hermes_cli/test_terminal_menu_fallbacks.py
+	modified:   tests/hermes_cli/test_timeouts.py
+	modified:   tests/hermes_cli/test_tips.py
+	modified:   tests/hermes_cli/test_tool_token_estimation.py
+	modified:   tests/hermes_cli/test_tools_config.py
+	modified:   tests/hermes_cli/test_tools_disable_enable.py
+	modified:   tests/hermes_cli/test_tts_picker.py
+	modified:   tests/hermes_cli/test_tui_bundled.py
+	modified:   tests/hermes_cli/test_tui_heap_sizing.py
+	modified:   tests/hermes_cli/test_tui_mouse_residue_suppression.py
+	modified:   tests/hermes_cli/test_tui_npm_install.py
+	modified:   tests/hermes_cli/test_tui_resume_flow.py
+	modified:   tests/hermes_cli/test_uninstall_node_symlinks.py
+	modified:   tests/hermes_cli/test_update_autostash.py
+	modified:   tests/hermes_cli/test_update_check.py
+	modified:   tests/hermes_cli/test_update_config_clears_custom_fields.py
+	modified:   tests/hermes_cli/test_update_hangup_protection.py
+	modified:   tests/hermes_cli/test_update_interrupted_recovery.py
+	modified:   tests/hermes_cli/test_update_post_pull_syntax_guard.py
+	modified:   tests/hermes_cli/test_update_stale_dashboard.py
+	modified:   tests/hermes_cli/test_update_yes_flag.py
+	modified:   tests/hermes_cli/test_update_zip_symlink_reject.py
+	modified:   tests/hermes_cli/test_user_providers_model_switch.py
+	modified:   tests/hermes_cli/test_uv_tool_update.py
+	modified:   tests/hermes_cli/test_verify_core_dependencies.py
+	modified:   tests/hermes_cli/test_video_gen_picker.py
+	modified:   tests/hermes_cli/test_voice_wrapper.py
+	modified:   tests/hermes_cli/test_web_server_cron_profiles.py
+	modified:   tests/hermes_cli/test_web_server_fs.py
+	modified:   tests/hermes_cli/test_web_server_host_header.py
+	modified:   tests/hermes_cli/test_web_server_messaging_profiles.py
+	modified:   tests/hermes_cli/test_web_server_oauth_write.py
+	modified:   tests/hermes_cli/test_web_server_profile_unification.py
+	modified:   tests/hermes_cli/test_web_server_pty_import.py
+	modified:   tests/hermes_cli/test_web_server_session_search.py
+	modified:   tests/hermes_cli/test_web_server_skill_editor.py
+	modified:   tests/hermes_cli/test_web_ui_build.py
+	modified:   tests/hermes_cli/test_webhook_cli.py
+	modified:   tests/hermes_cli/test_whatsapp_cloud_setup.py
+	modified:   tests/hermes_cli/test_whatsapp_setup_ordering.py
+	modified:   tests/hermes_cli/test_win_pty_bridge.py
+	modified:   tests/hermes_cli/test_windows_native_docs.py
+	modified:   tests/hermes_cli/test_xai_model_flow.py
+	modified:   tests/hermes_cli/test_xai_oauth_pkce_token_exchange.py
+	modified:   tests/hermes_cli/test_xai_provider_labels.py
+	modified:   tests/hermes_cli/test_xai_retirement.py
+	modified:   tests/hermes_cli/test_xiaomi_provider.py
+	modified:   tests/hermes_state/test_get_anchored_view.py
+	modified:   tests/hermes_state/test_get_messages_around.py
+	modified:   tests/hermes_state/test_resolve_resume_session_id.py
+	modified:   tests/hermes_state/test_session_archiving.py
+	modified:   tests/honcho_plugin/test_async_memory.py
+	modified:   tests/honcho_plugin/test_cli.py
+	modified:   tests/honcho_plugin/test_client.py
+	modified:   tests/honcho_plugin/test_empty_profile_hint.py
+	modified:   tests/honcho_plugin/test_pin_peer_name.py
+	modified:   tests/honcho_plugin/test_session.py
+	modified:   tests/integration/test_batch_runner.py
+	modified:   tests/integration/test_checkpoint_resumption.py
+	modified:   tests/integration/test_daytona_terminal.py
+	modified:   tests/integration/test_ha_integration.py
+	modified:   tests/integration/test_modal_terminal.py
+	modified:   tests/integration/test_voice_channel_flow.py
+	modified:   tests/integration/test_web_tools.py
+	modified:   tests/openviking_plugin/test_openviking.py
+	modified:   tests/plugins/browser/check_parity_vs_main.py
+	modified:   tests/plugins/browser/test_browser_provider_plugins.py
+	modified:   tests/plugins/dashboard_auth/test_basic_provider.py
+	modified:   tests/plugins/dashboard_auth/test_nous_provider.py
+	modified:   tests/plugins/dashboard_auth/test_self_hosted_provider.py
+	modified:   tests/plugins/image_gen/check_parity_vs_main.py
+	modified:   tests/plugins/image_gen/test_fal_provider.py
+	modified:   tests/plugins/image_gen/test_krea_provider.py
+	modified:   tests/plugins/image_gen/test_openai_codex_provider.py
+	modified:   tests/plugins/image_gen/test_openai_provider.py
+	modified:   tests/plugins/image_gen/test_xai_provider.py
+	modified:   tests/plugins/memory/test_hindsight_provider.py
+	modified:   tests/plugins/memory/test_mem0_v2.py
+	modified:   tests/plugins/memory/test_openviking_provider.py
+	modified:   tests/plugins/memory/test_supermemory_provider.py
+	modified:   tests/plugins/model_providers/test_deepseek_profile.py
+	modified:   tests/plugins/model_providers/test_kimi_profile.py
+	modified:   tests/plugins/model_providers/test_minimax_profile.py
+	modified:   tests/plugins/model_providers/test_opencode_go_profile.py
+	modified:   tests/plugins/platforms/photon/test_auth.py
+	modified:   tests/plugins/platforms/photon/test_inbound.py
+	modified:   tests/plugins/platforms/photon/test_markdown.py
+	modified:   tests/plugins/platforms/photon/test_mention_gating.py
+	modified:   tests/plugins/platforms/photon/test_outbound_media.py
+	modified:   tests/plugins/platforms/photon/test_reactions.py
+	modified:   tests/plugins/platforms/photon/test_sidecar_lifecycle.py
+	modified:   tests/plugins/test_achievements_plugin.py
+	modified:   tests/plugins/test_discord_runtime_failure.py
+	modified:   tests/plugins/test_disk_cleanup_plugin.py
+	modified:   tests/plugins/test_google_meet_audio.py
+	modified:   tests/plugins/test_google_meet_node.py
+	modified:   tests/plugins/test_google_meet_plugin.py
+	modified:   tests/plugins/test_google_meet_realtime.py
+	modified:   tests/plugins/test_kanban_attachments.py
+	modified:   tests/plugins/test_kanban_dashboard_plugin.py
+	modified:   tests/plugins/test_kanban_worker_runs.py
+	modified:   tests/plugins/test_langfuse_plugin.py
+	modified:   tests/plugins/test_nemo_relay_plugin.py
+	modified:   tests/plugins/test_plugin_dashboard_auth_contract.py
+	modified:   tests/plugins/test_retaindb_plugin.py
+	modified:   tests/plugins/test_security_guidance_plugin.py
+	modified:   tests/plugins/test_teams_pipeline_plugin.py
+	modified:   tests/plugins/transcription/check_parity_vs_main.py
+	modified:   tests/plugins/tts/check_parity_vs_main.py
+	modified:   tests/plugins/video_gen/__init__.py
+	modified:   tests/plugins/video_gen/test_fal_plugin.py
+	modified:   tests/plugins/video_gen/test_xai_plugin.py
+	modified:   tests/plugins/video_gen/test_xai_plugin_integration.py
+	modified:   tests/plugins/web/test_parallel_keyless_mcp.py
+	modified:   tests/plugins/web/test_web_search_provider_plugins.py
+	modified:   tests/providers/test_e2e_wiring.py
+	modified:   tests/providers/test_plugin_discovery.py
+	modified:   tests/providers/test_profile_wiring.py
+	modified:   tests/providers/test_provider_profiles.py
+	modified:   tests/providers/test_transport_parity.py
+	modified:   tests/run_agent/conftest.py
+	modified:   tests/run_agent/test_1630_context_overflow_loop.py
+	modified:   tests/run_agent/test_18028_content_policy_blocked.py
+	modified:   tests/run_agent/test_31273_402_not_retried.py
+	modified:   tests/run_agent/test_413_compression.py
+	modified:   tests/run_agent/test_860_dedup.py
+	modified:   tests/run_agent/test_agent_guardrails.py
+	modified:   tests/run_agent/test_anthropic_prompt_cache_policy.py
+	modified:   tests/run_agent/test_anthropic_third_party_oauth_guard.py
+	modified:   tests/run_agent/test_anthropic_truncation_continuation.py
+	modified:   tests/run_agent/test_api_max_retries_config.py
+	modified:   tests/run_agent/test_async_httpx_del_neuter.py
+	modified:   tests/run_agent/test_background_review.py
+	modified:   tests/run_agent/test_background_review_cache_parity.py
+	modified:   tests/run_agent/test_background_review_summary.py
+	modified:   tests/run_agent/test_background_review_toolset_restriction.py
+	modified:   tests/run_agent/test_callable_api_key.py
+	modified:   tests/run_agent/test_codex_app_server_integration.py
+	modified:   tests/run_agent/test_codex_multimodal_tool_result.py
+	modified:   tests/run_agent/test_codex_no_tools_nonetype.py
+	modified:   tests/run_agent/test_codex_silent_hang_hint.py
+	modified:   tests/run_agent/test_codex_xai_oauth_recovery.py
+	modified:   tests/run_agent/test_commit_memory_session_context_engine.py
+	modified:   tests/run_agent/test_compress_focus_plugin_fallback.py
+	modified:   tests/run_agent/test_compression_boundary.py
+	modified:   tests/run_agent/test_compression_boundary_hook.py
+	modified:   tests/run_agent/test_compression_feasibility.py
+	modified:   tests/run_agent/test_compression_trigger_excludes_reasoning.py
+	modified:   tests/run_agent/test_compressor_fallback_update.py
+	modified:   tests/run_agent/test_concurrent_interrupt.py
+	modified:   tests/run_agent/test_context_token_tracking.py
+	modified:   tests/run_agent/test_copilot_native_vision_headers.py
+	modified:   tests/run_agent/test_create_openai_client_kwargs_isolation.py
+	modified:   tests/run_agent/test_create_openai_client_proxy_env.py
+	modified:   tests/run_agent/test_create_openai_client_reuse.py
+	modified:   tests/run_agent/test_credential_pool_interrupt.py
+	modified:   tests/run_agent/test_credits_notices_toggle.py
+	modified:   tests/run_agent/test_deepseek_reasoning_content_echo.py
+	modified:   tests/run_agent/test_deepseek_v4_thinking_live.py
+	modified:   tests/run_agent/test_dict_tool_call_args.py
+	modified:   tests/run_agent/test_empty_response_recovery_persistence.py
+	modified:   tests/run_agent/test_exit_cleanup_interrupt.py
+	modified:   tests/run_agent/test_fallback_credential_isolation.py
+	modified:   tests/run_agent/test_file_mutation_verifier.py
+	modified:   tests/run_agent/test_image_rejection_fallback.py
+	modified:   tests/run_agent/test_infinite_compaction_loop.py
+	modified:   tests/run_agent/test_init_fallback_on_exhausted_pool.py
+	modified:   tests/run_agent/test_interactive_interrupt.py
+	modified:   tests/run_agent/test_interrupt_propagation.py
+	modified:   tests/run_agent/test_invalid_context_length_warning.py
+	modified:   tests/run_agent/test_iteration_budget_race.py
+	modified:   tests/run_agent/test_jsondecodeerror_retryable.py
+	modified:   tests/run_agent/test_last_reasoning_per_turn.py
+	modified:   tests/run_agent/test_long_context_tier_429.py
+	modified:   tests/run_agent/test_materialize_data_url_cleanup.py
+	modified:   tests/run_agent/test_memory_nudge_counter_hydration.py
+	modified:   tests/run_agent/test_memory_provider_init.py
+	modified:   tests/run_agent/test_memory_sync_interrupted.py
+	modified:   tests/run_agent/test_multimodal_tool_content_recovery.py
+	modified:   tests/run_agent/test_notice_spine.py
+	modified:   tests/run_agent/test_openai_client_lifecycle.py
+	modified:   tests/run_agent/test_partial_stream_finish_reason.py
+	modified:   tests/run_agent/test_percentage_clamp.py
+	modified:   tests/run_agent/test_plugin_context_engine_init.py
+	modified:   tests/run_agent/test_primary_runtime_restore.py
+	modified:   tests/run_agent/test_provider_attribution_headers.py
+	modified:   tests/run_agent/test_provider_fallback.py
+	modified:   tests/run_agent/test_provider_parity.py
+	modified:   tests/run_agent/test_real_interrupt_subagent.py
+	modified:   tests/run_agent/test_redirect_stdout_issue.py
+	modified:   tests/run_agent/test_repair_tool_call_arguments.py
+	modified:   tests/run_agent/test_repair_tool_call_name.py
+	modified:   tests/run_agent/test_retry_status_buffer.py
+	modified:   tests/run_agent/test_review_prompt_class_first.py
+	modified:   tests/run_agent/test_run_agent_multimodal_prologue.py
+	modified:   tests/run_agent/test_sequential_chats_live.py
+	modified:   tests/run_agent/test_session_id_env.py
+	modified:   tests/run_agent/test_session_meta_filtering.py
+	modified:   tests/run_agent/test_session_reset_fix.py
+	modified:   tests/run_agent/test_steer.py
+	modified:   tests/run_agent/test_stream_drop_logging.py
+	modified:   tests/run_agent/test_stream_interrupt_retry.py
+	modified:   tests/run_agent/test_streaming.py
+	modified:   tests/run_agent/test_streaming_tool_call_repair.py
+	modified:   tests/run_agent/test_strict_api_validation.py
+	modified:   tests/run_agent/test_strip_reasoning_tags_cli.py
+	modified:   tests/run_agent/test_switch_model_context.py
+	modified:   tests/run_agent/test_switch_model_fallback_prune.py
+	modified:   tests/run_agent/test_switch_model_rollback.py
+	modified:   tests/run_agent/test_thinking_sig_recovery_persistence.py
+	modified:   tests/run_agent/test_tls_fd_recycle_corruption.py
+	modified:   tests/run_agent/test_token_persistence_non_cli.py
+	modified:   tests/run_agent/test_tool_arg_coercion.py
+	modified:   tests/run_agent/test_tool_call_args_sanitizer.py
+	modified:   tests/run_agent/test_tool_call_guardrail_runtime.py
+	modified:   tests/run_agent/test_tool_executor_contextvar_propagation.py
+	modified:   tests/run_agent/test_tool_name_db_persistence.py
+	modified:   tests/run_agent/test_turn_completion_explainer.py
+	modified:   tests/run_agent/test_unicode_ascii_codec.py
+	modified:   tests/run_agent/test_vision_aware_preprocessing.py
+	modified:   tests/run_agent/test_vision_tool_messages.py
+	modified:   tests/run_interrupt_test.py
+	modified:   tests/scripts/test_build_skills_index_health.py
+	modified:   tests/scripts/test_release_acp_registry.py
+	modified:   tests/skills/test_darwinian_evolver_skill.py
+	modified:   tests/skills/test_fetch_transcript.py
+	modified:   tests/skills/test_google_oauth_setup.py
+	modified:   tests/skills/test_google_workspace_api.py
+	modified:   tests/skills/test_google_workspace_credential_files.py
+	modified:   tests/skills/test_hyperliquid_skill.py
+	modified:   tests/skills/test_memento_cards.py
+	modified:   tests/skills/test_openclaw_migration.py
+	modified:   tests/skills/test_openclaw_migration_hardening.py
+	modified:   tests/skills/test_telephony_skill.py
+	modified:   tests/skills/test_xurl_article_ingestion_docs.py
+	modified:   tests/skills/test_youtube_quiz.py
+	modified:   tests/stress/README.md
+	modified:   tests/stress/_fake_worker.py
+	modified:   tests/stress/conftest.py
+	modified:   tests/stress/test_atypical_scenarios.py
+	modified:   tests/stress/test_benchmarks.py
+	modified:   tests/stress/test_concurrency.py
+	modified:   tests/stress/test_concurrency_mixed.py
+	modified:   tests/stress/test_concurrency_parent_gate.py
+	modified:   tests/stress/test_concurrency_reclaim_race.py
+	modified:   tests/stress/test_property_fuzzing.py
+	modified:   tests/stress/test_subprocess_e2e.py
+	modified:   tests/test_account_usage.py
+	modified:   tests/test_base_url_hostname.py
+	modified:   tests/test_batch_runner_checkpoint.py
+	modified:   tests/test_bitwarden_secrets.py
+	modified:   tests/test_cli_file_drop.py
+	modified:   tests/test_cli_manual_compress.py
+	modified:   tests/test_cli_skin_integration.py
+	modified:   tests/test_ctx_halving_fix.py
+	modified:   tests/test_dashboard_sidecar_close_on_disconnect.py
+	modified:   tests/test_desktop_mac_entitlements.py
+	modified:   tests/test_docker_home_override_scripts.py
+	modified:   tests/test_docker_stage2_browser_discovery.py
+	modified:   tests/test_dockerfile_tini_compat_shim.py
+	modified:   tests/test_empty_model_fallback.py
+	modified:   tests/test_empty_session_hygiene.py
+	modified:   tests/test_env_loader_secret_sources.py
+	modified:   tests/test_evidence_store.py
+	modified:   tests/test_gateway_streaming_nested_config.py
+	modified:   tests/test_get_tool_definitions_cache_isolation.py
+	modified:   tests/test_hermes_bootstrap.py
+	modified:   tests/test_hermes_constants.py
+	modified:   tests/test_hermes_home_profile_warning.py
+	modified:   tests/test_hermes_logging.py
+	modified:   tests/test_hermes_state_compression_locks.py
+	modified:   tests/test_hermes_state_wal_fallback.py
+	modified:   tests/test_honcho_client_concurrency.py
+	modified:   tests/test_honcho_client_config.py
+	modified:   tests/test_honcho_session_context.py
+	modified:   tests/test_honcho_startup_fail_open.py
+	modified:   tests/test_install_no_initial_commit.py
+	modified:   tests/test_install_sh_browser_install.py
+	modified:   tests/test_install_sh_pythonpath_sanitization.py
+	modified:   tests/test_install_sh_root_fhs_uv_python_path.py
+	modified:   tests/test_install_sh_setup_wizard_tty_probe.py
+	modified:   tests/test_install_sh_symlink_stomp.py
+	modified:   tests/test_install_sh_termux_network_prereqs.py
+	modified:   tests/test_ipv4_preference.py
+	modified:   tests/test_lazy_session_regressions.py
+	modified:   tests/test_lint_config.py
+	modified:   tests/test_live_system_guard_self_test.py
+	modified:   tests/test_mcp_serve.py
+	modified:   tests/test_mini_swe_runner.py
+	modified:   tests/test_minimax_model_validation.py
+	modified:   tests/test_minimax_oauth.py
+	modified:   tests/test_minisweagent_path.py
+	modified:   tests/test_model_forces_max_completion_tokens.py
+	modified:   tests/test_model_picker_scroll.py
+	modified:   tests/test_model_tools.py
+	modified:   tests/test_model_tools_async_bridge.py
+	modified:   tests/test_ollama_num_ctx.py
+	modified:   tests/test_output_cap_parsing.py
+	modified:   tests/test_package_json_lazy_deps.py
+	modified:   tests/test_packaging_metadata.py
+	modified:   tests/test_plugin_skills.py
+	modified:   tests/test_plugin_utils.py
+	modified:   tests/test_process_loop_event_loop_warning.py
+	modified:   tests/test_project_metadata.py
+	modified:   tests/test_retry_utils.py
+	modified:   tests/test_sanitize_tool_error.py
+	modified:   tests/test_slash_worker_watchdog.py
+	modified:   tests/test_sql_injection.py
+	modified:   tests/test_state_db_malformed_repair.py
+	modified:   tests/test_termux_all_extra_compat.py
+	modified:   tests/test_timezone.py
+	modified:   tests/test_toolset_distributions.py
+	modified:   tests/test_toolsets.py
+	modified:   tests/test_trajectory_compressor.py
+	modified:   tests/test_trajectory_compressor_async.py
+	modified:   tests/test_transform_llm_output_hook.py
+	modified:   tests/test_transform_tool_result_hook.py
+	modified:   tests/test_utils_truthy_values.py
+	modified:   tests/test_wheel_locales_e2e.py
+	modified:   tests/test_yuanbao_integration.py
+	modified:   tests/test_yuanbao_markdown.py
+	modified:   tests/test_yuanbao_pipeline.py
+	modified:   tests/test_yuanbao_proto.py
+	modified:   tests/test_yuanbao_shutdown.py
+	modified:   tests/tools/conftest.py
+	modified:   tests/tools/test_accretion_caps.py
+	modified:   tests/tools/test_ansi_strip.py
+	modified:   tests/tools/test_approval_heartbeat.py
+	modified:   tests/tools/test_approval_plugin_hooks.py
+	modified:   tests/tools/test_base_environment.py
+	modified:   tests/tools/test_blueprints.py
+	modified:   tests/tools/test_browser_camofox.py
+	modified:   tests/tools/test_browser_camofox_persistence.py
+	modified:   tests/tools/test_browser_camofox_state.py
+	modified:   tests/tools/test_browser_cdp_override.py
+	modified:   tests/tools/test_browser_cdp_tool.py
+	modified:   tests/tools/test_browser_chromium_check.py
+	modified:   tests/tools/test_browser_cleanup.py
+	modified:   tests/tools/test_browser_cloud_fallback.py
+	modified:   tests/tools/test_browser_cloud_provider_cache.py
+	modified:   tests/tools/test_browser_console.py
+	modified:   tests/tools/test_browser_content_none_guard.py
+	modified:   tests/tools/test_browser_eval_supervisor_path.py
+	modified:   tests/tools/test_browser_hardening.py
+	modified:   tests/tools/test_browser_homebrew_paths.py
+	modified:   tests/tools/test_browser_hybrid_routing.py
+	modified:   tests/tools/test_browser_lightpanda.py
+	modified:   tests/tools/test_browser_orphan_reaper.py
+	modified:   tests/tools/test_browser_secret_exfil.py
+	modified:   tests/tools/test_browser_ssrf_local.py
+	modified:   tests/tools/test_browser_supervisor.py
+	modified:   tests/tools/test_browser_supervisor_healthcheck.py
+	modified:   tests/tools/test_budget_config.py
+	modified:   tests/tools/test_checkpoint_manager.py
+	modified:   tests/tools/test_clarify_gateway.py
+	modified:   tests/tools/test_clarify_tool.py
+	modified:   tests/tools/test_clipboard.py
+	modified:   tests/tools/test_code_execution_modes.py
+	modified:   tests/tools/test_code_execution_windows_env.py
+	modified:   tests/tools/test_command_guards.py
+	modified:   tests/tools/test_computer_use.py
+	modified:   tests/tools/test_computer_use_capture_routing.py
+	modified:   tests/tools/test_computer_use_vision_routing.py
+	modified:   tests/tools/test_config_null_guard.py
+	modified:   tests/tools/test_credential_pool_env_fallback.py
+	modified:   tests/tools/test_cron_approval_mode.py
+	modified:   tests/tools/test_cron_prompt_injection.py
+	modified:   tests/tools/test_cronjob_tools.py
+	modified:   tests/tools/test_cross_profile_guard.py
+	modified:   tests/tools/test_daytona_environment.py
+	modified:   tests/tools/test_debug_helpers.py
+	modified:   tests/tools/test_delegate.py
+	modified:   tests/tools/test_delegate_composite_toolsets.py
+	modified:   tests/tools/test_delegate_subagent_timeout_diagnostic.py
+	modified:   tests/tools/test_delegate_toolset_scope.py
+	modified:   tests/tools/test_discord_tool.py
+	modified:   tests/tools/test_docker_config_migrate.py
+	modified:   tests/tools/test_docker_environment.py
+	modified:   tests/tools/test_docker_find.py
+	modified:   tests/tools/test_docker_orphan_reaper_integration.py
+	modified:   tests/tools/test_dockerfile_node_modules_perms.py
+	modified:   tests/tools/test_dockerfile_pid1_reaping.py
+	modified:   tests/tools/test_env_passthrough.py
+	modified:   tests/tools/test_env_probe.py
+	modified:   tests/tools/test_execute_code_approval_cluster.py
+	modified:   tests/tools/test_feishu_tools.py
+	modified:   tests/tools/test_file_operations_edge_cases.py
+	modified:   tests/tools/test_file_ops_cwd_tracking.py
+	modified:   tests/tools/test_file_read_guards.py
+	modified:   tests/tools/test_file_staleness.py
+	modified:   tests/tools/test_file_state_registry.py
+	modified:   tests/tools/test_file_sync.py
+	modified:   tests/tools/test_file_sync_back.py
+	modified:   tests/tools/test_file_sync_perf.py
+	modified:   tests/tools/test_file_tools.py
+	modified:   tests/tools/test_file_tools_container_config.py
+	modified:   tests/tools/test_file_tools_cwd_resolution.py
+	modified:   tests/tools/test_file_tools_live.py
+	modified:   tests/tools/test_file_write_safety.py
+	modified:   tests/tools/test_force_dangerous_override.py
+	modified:   tests/tools/test_fuzzy_match.py
+	modified:   tests/tools/test_gateway_cwd_contract.py
+	modified:   tests/tools/test_hardline_blocklist.py
+	modified:   tests/tools/test_heartbeat_stale_thresholds.py
+	modified:   tests/tools/test_hidden_dir_filter.py
+	modified:   tests/tools/test_homeassistant_tool.py
+	modified:   tests/tools/test_image_generation.py
+	modified:   tests/tools/test_image_generation_artifacts.py
+	modified:   tests/tools/test_image_generation_env.py
+	modified:   tests/tools/test_image_generation_plugin_dispatch.py
+	modified:   tests/tools/test_init_session_cwd_respect.py
+	modified:   tests/tools/test_interrupt.py
+	modified:   tests/tools/test_kanban_tools.py
+	modified:   tests/tools/test_lazy_deps.py
+	modified:   tests/tools/test_line_ending_preservation.py
+	modified:   tests/tools/test_llm_content_none_guard.py
+	modified:   tests/tools/test_local_background_child_hang.py
+	modified:   tests/tools/test_local_env_blocklist.py
+	modified:   tests/tools/test_local_env_cwd_recovery.py
+	modified:   tests/tools/test_local_env_windows_msys.py
+	modified:   tests/tools/test_local_interrupt_cleanup.py
+	modified:   tests/tools/test_local_shell_init.py
+	modified:   tests/tools/test_local_tempdir.py
+	modified:   tests/tools/test_managed_browserbase_and_modal.py
+	modified:   tests/tools/test_managed_media_gateways.py
+	modified:   tests/tools/test_managed_modal_environment.py
+	modified:   tests/tools/test_managed_tool_gateway.py
+	modified:   tests/tools/test_mcp_cancelled_error_propagation.py
+	modified:   tests/tools/test_mcp_capability_gating.py
+	modified:   tests/tools/test_mcp_circuit_breaker.py
+	modified:   tests/tools/test_mcp_client_cert.py
+	modified:   tests/tools/test_mcp_dynamic_discovery.py
+	modified:   tests/tools/test_mcp_empty_error_message.py
+	modified:   tests/tools/test_mcp_image_content.py
+	modified:   tests/tools/test_mcp_invalid_url.py
+	modified:   tests/tools/test_mcp_loop_profile_override.py
+	modified:   tests/tools/test_mcp_oauth.py
+	modified:   tests/tools/test_mcp_oauth_bidirectional.py
+	modified:   tests/tools/test_mcp_oauth_cold_load_expiry.py
+	modified:   tests/tools/test_mcp_oauth_integration.py
+	modified:   tests/tools/test_mcp_oauth_manager.py
+	modified:   tests/tools/test_mcp_oauth_metadata.py
+	modified:   tests/tools/test_mcp_preflight_content_type.py
+	modified:   tests/tools/test_mcp_reconnect_signal.py
+	modified:   tests/tools/test_mcp_sse_transport.py
+	modified:   tests/tools/test_mcp_structured_content.py
+	modified:   tests/tools/test_mcp_tool.py
+	modified:   tests/tools/test_mcp_tool_401_handling.py
+	modified:   tests/tools/test_mcp_tool_issue_948.py
+	modified:   tests/tools/test_mcp_tool_session_expired.py
+	modified:   tests/tools/test_mcp_utility_capability_gating.py
+	modified:   tests/tools/test_memory_tool.py
+	modified:   tests/tools/test_memory_tool_import_fallback.py
+	modified:   tests/tools/test_memory_tool_schema.py
+	modified:   tests/tools/test_microsoft_graph_auth.py
+	modified:   tests/tools/test_microsoft_graph_client.py
+	modified:   tests/tools/test_mixture_of_agents_tool.py
+	modified:   tests/tools/test_modal_bulk_upload.py
+	modified:   tests/tools/test_modal_sandbox_fixes.py
+	modified:   tests/tools/test_modal_snapshot_isolation.py
+	modified:   tests/tools/test_notify_on_complete.py
+	modified:   tests/tools/test_osv_check.py
+	modified:   tests/tools/test_parse_env_var.py
+	modified:   tests/tools/test_patch_failure_tracking.py
+	modified:   tests/tools/test_patch_parser.py
+	modified:   tests/tools/test_pr_6656_regressions.py
+	modified:   tests/tools/test_read_loop_detection.py
+	modified:   tests/tools/test_registry.py
+	modified:   tests/tools/test_resolve_path.py
+	modified:   tests/tools/test_schema_sanitizer.py
+	modified:   tests/tools/test_search_error_guard.py
+	modified:   tests/tools/test_search_hidden_dirs.py
+	modified:   tests/tools/test_send_message_missing_platforms.py
+	modified:   tests/tools/test_send_message_react.py
+	modified:   tests/tools/test_send_message_target_parse.py
+	modified:   tests/tools/test_send_message_telegram_proxy.py
+	modified:   tests/tools/test_send_message_tool.py
+	modified:   tests/tools/test_session_search.py
+	modified:   tests/tools/test_shared_container_task_id.py
+	modified:   tests/tools/test_signal_media.py
+	modified:   tests/tools/test_singularity_preflight.py
+	modified:   tests/tools/test_skill_env_passthrough.py
+	modified:   tests/tools/test_skill_improvements.py
+	modified:   tests/tools/test_skill_manager_tool.py
+	modified:   tests/tools/test_skill_provenance.py
+	modified:   tests/tools/test_skill_size_limits.py
+	modified:   tests/tools/test_skill_usage.py
+	modified:   tests/tools/test_skill_view_path_check.py
+	modified:   tests/tools/test_skill_view_traversal.py
+	modified:   tests/tools/test_skills_ast_audit.py
+	modified:   tests/tools/test_skills_guard.py
+	modified:   tests/tools/test_skills_hub.py
+	modified:   tests/tools/test_skills_hub_browse_sh.py
+	modified:   tests/tools/test_skills_hub_clawhub.py
+	modified:   tests/tools/test_skills_tool.py
+	modified:   tests/tools/test_slash_confirm.py
+	modified:   tests/tools/test_spotify_client.py
+	modified:   tests/tools/test_ssh_bulk_upload.py
+	modified:   tests/tools/test_ssh_environment.py
+	modified:   tests/tools/test_stage2_hook_build_tree_chown.py
+	modified:   tests/tools/test_stage2_hook_gateway_bootstrap_state.py
+	modified:   tests/tools/test_stage2_hook_install_dir_chown.py
+	modified:   tests/tools/test_stage2_hook_puid_pgid.py
+	modified:   tests/tools/test_stage2_hook_toplevel_chown.py
+	modified:   tests/tools/test_stage2_hook_unraid_uid.py
+	modified:   tests/tools/test_stage2_hook_user_flag_guard.py
+	modified:   tests/tools/test_subprocess_stdin_guard.py
+	modified:   tests/tools/test_symlink_prefix_confusion.py
+	modified:   tests/tools/test_sync_back_backends.py
+	modified:   tests/tools/test_terminal_compound_background.py
+	modified:   tests/tools/test_terminal_config_env_sync.py
+	modified:   tests/tools/test_terminal_exit_semantics.py
+	modified:   tests/tools/test_terminal_foreground_timeout_cap.py
+	modified:   tests/tools/test_terminal_none_command_guard.py
+	modified:   tests/tools/test_terminal_output_transform_hook.py
+	modified:   tests/tools/test_terminal_requirements.py
+	modified:   tests/tools/test_terminal_task_cwd.py
+	modified:   tests/tools/test_terminal_timeout_output.py
+	modified:   tests/tools/test_terminal_tool.py
+	modified:   tests/tools/test_terminal_tool_pty_fallback.py
+	modified:   tests/tools/test_terminal_tool_requirements.py
+	modified:   tests/tools/test_threaded_process_handle.py
+	modified:   tests/tools/test_threat_patterns.py
+	modified:   tests/tools/test_tirith_security.py
+	modified:   tests/tools/test_todo_tool.py
+	modified:   tests/tools/test_tool_backend_helpers.py
+	modified:   tests/tools/test_tool_output_limits.py
+	modified:   tests/tools/test_tool_result_storage.py
+	modified:   tests/tools/test_tool_search.py
+	modified:   tests/tools/test_transcription.py
+	modified:   tests/tools/test_transcription_command_providers.py
+	modified:   tests/tools/test_transcription_dotenv_fallback.py
+	modified:   tests/tools/test_transcription_plugin_dispatch.py
+	modified:   tests/tools/test_transcription_tools.py
+	modified:   tests/tools/test_tts_command_providers.py
+	modified:   tests/tools/test_tts_dotenv_fallback.py
+	modified:   tests/tools/test_tts_gemini.py
+	modified:   tests/tools/test_tts_kittentts.py
+	modified:   tests/tools/test_tts_max_text_length.py
+	modified:   tests/tools/test_tts_mistral.py
+	modified:   tests/tools/test_tts_opus_routing.py
+	modified:   tests/tools/test_tts_path_traversal.py
+	modified:   tests/tools/test_tts_piper.py
+	modified:   tests/tools/test_tts_plugin_dispatch.py
+	modified:   tests/tools/test_tts_speed.py
+	modified:   tests/tools/test_tts_xai_speech_tags.py
+	modified:   tests/tools/test_url_safety.py
+	modified:   tests/tools/test_video_analyze.py
+	modified:   tests/tools/test_video_generation_dispatch.py
+	modified:   tests/tools/test_video_generation_dynamic_schema.py
+	modified:   tests/tools/test_video_generation_tool_surface_matrix.py
+	modified:   tests/tools/test_vision_native_fast_path.py
+	modified:   tests/tools/test_vision_tools.py
+	modified:   tests/tools/test_voice_cli_integration.py
+	modified:   tests/tools/test_voice_mode.py
+	modified:   tests/tools/test_watch_patterns.py
+	modified:   tests/tools/test_web_keyless_default_fallback.py
+	modified:   tests/tools/test_web_providers.py
+	modified:   tests/tools/test_web_providers_brave_free.py
+	modified:   tests/tools/test_web_providers_ddgs.py
+	modified:   tests/tools/test_web_providers_searxng.py
+	modified:   tests/tools/test_web_providers_xai.py
+	modified:   tests/tools/test_web_tools_config.py
+	modified:   tests/tools/test_web_tools_tavily.py
+	modified:   tests/tools/test_website_policy.py
+	modified:   tests/tools/test_windows_compat.py
+	modified:   tests/tools/test_windows_native_support.py
+	modified:   tests/tools/test_write_approval.py
+	modified:   tests/tools/test_x_search_tool.py
+	modified:   tests/tools/test_yolo_mode.py
+	modified:   tests/tools/test_zombie_process_cleanup.py
+	modified:   tests/tui_gateway/test_entry_sys_path.py
+	modified:   tests/tui_gateway/test_goal_command.py
+	modified:   tests/tui_gateway/test_render.py
+	modified:   tests/tui_gateway/test_review_summary_callback.py
+	modified:   tests/tui_gateway/test_undo_command.py
+	modified:   tests/tui_gateway/test_wait_for_mcp_discovery.py
+	modified:   tests/website/test_extract_skills.py
+	modified:   tests/website/test_generate_skill_docs.py
+	modified:   tools/__init__.py
+	modified:   tools/ansi_strip.py
+	modified:   tools/binary_extensions.py
+	modified:   tools/blueprints.py
+	modified:   tools/browser_camofox.py
+	modified:   tools/browser_camofox_state.py
+	modified:   tools/browser_cdp_tool.py
+	modified:   tools/browser_dialog_tool.py
+	modified:   tools/browser_supervisor.py
+	modified:   tools/browser_tool.py
+	modified:   tools/budget_config.py
+	modified:   tools/checkpoint_manager.py
+	modified:   tools/clarify_gateway.py
+	modified:   tools/clarify_tool.py
+	modified:   tools/computer_use/__init__.py
+	modified:   tools/computer_use/backend.py
+	modified:   tools/computer_use/cua_backend.py
+	modified:   tools/computer_use/schema.py
+	modified:   tools/computer_use/tool.py
+	modified:   tools/computer_use/vision_routing.py
+	modified:   tools/computer_use_tool.py
+	modified:   tools/cronjob_tools.py
+	modified:   tools/debug_helpers.py
+	modified:   tools/discord_tool.py
+	modified:   tools/env_passthrough.py
+	modified:   tools/env_probe.py
+	modified:   tools/environments/__init__.py
+	modified:   tools/environments/base.py
+	modified:   tools/environments/daytona.py
+	modified:   tools/environments/docker.py
+	modified:   tools/environments/file_sync.py
+	modified:   tools/environments/managed_modal.py
+	modified:   tools/environments/modal.py
+	modified:   tools/environments/modal_utils.py
+	modified:   tools/environments/singularity.py
+	modified:   tools/environments/ssh.py
+	modified:   tools/fal_common.py
+	modified:   tools/feishu_doc_tool.py
+	modified:   tools/feishu_drive_tool.py
+	modified:   tools/file_state.py
+	modified:   tools/fuzzy_match.py
+	modified:   tools/homeassistant_tool.py
+	modified:   tools/image_generation_tool.py
+	modified:   tools/interrupt.py
+	modified:   tools/kanban_tools.py
+	modified:   tools/lazy_deps.py
+	modified:   tools/managed_tool_gateway.py
+	modified:   tools/mcp_oauth.py
+	modified:   tools/mcp_oauth_manager.py
+	modified:   tools/memory_tool.py
+	modified:   tools/microsoft_graph_auth.py
+	modified:   tools/microsoft_graph_client.py
+	modified:   tools/mixture_of_agents_tool.py
+	modified:   tools/neutts_samples/jo.txt
+	modified:   tools/neutts_synth.py
+	modified:   tools/openrouter_client.py
+	modified:   tools/osv_check.py
+	modified:   tools/patch_parser.py
+	modified:   tools/path_security.py
+	modified:   tools/read_terminal_tool.py
+	modified:   tools/registry.py
+	modified:   tools/schema_sanitizer.py
+	modified:   tools/send_message_tool.py
+	modified:   tools/skill_manager_tool.py
+	modified:   tools/skill_provenance.py
+	modified:   tools/skill_usage.py
+	modified:   tools/skills_ast_audit.py
+	modified:   tools/skills_guard.py
+	modified:   tools/skills_hub.py
+	modified:   tools/skills_tool.py
+	modified:   tools/slash_confirm.py
+	modified:   tools/terminal_tool.py
+	modified:   tools/thread_context.py
+	modified:   tools/threat_patterns.py
+	modified:   tools/tirith_security.py
+	modified:   tools/todo_tool.py
+	modified:   tools/tool_backend_helpers.py
+	modified:   tools/tool_output_limits.py
+	modified:   tools/tool_result_storage.py
+	modified:   tools/tool_search.py
+	modified:   tools/transcription_tools.py
+	modified:   tools/tts_tool.py
+	modified:   tools/url_safety.py
+	modified:   tools/video_generation_tool.py
+	modified:   tools/vision_tools.py
+	modified:   tools/voice_mode.py
+	modified:   tools/web_tools.py
+	modified:   tools/website_policy.py
+	modified:   tools/write_approval.py
+	modified:   tools/x_search_tool.py
+	modified:   tools/xai_http.py
+	modified:   tools/yuanbao_tools.py
+	modified:   toolset_distributions.py
+	modified:   toolsets.py
+	modified:   trajectory_compressor.py
+	modified:   tui_gateway/entry.py
+	modified:   tui_gateway/event_publisher.py
+	modified:   tui_gateway/render.py
+	modified:   tui_gateway/slash_worker.py
+	modified:   tui_gateway/transport.py
+	modified:   ui-tui/.gitignore
+	modified:   ui-tui/.prettierrc
+	modified:   ui-tui/README.md
+	modified:   ui-tui/eslint.config.mjs
+	modified:   ui-tui/package.json
+	modified:   ui-tui/packages/hermes-ink/ambient.d.ts
+	modified:   ui-tui/packages/hermes-ink/index.d.ts
+	modified:   ui-tui/packages/hermes-ink/index.js
+	modified:   ui-tui/packages/hermes-ink/package.json
+	modified:   ui-tui/packages/hermes-ink/src/bootstrap/state.ts
+	modified:   ui-tui/packages/hermes-ink/src/entry-exports.ts
+	modified:   ui-tui/packages/hermes-ink/src/hooks/use-stderr.ts
+	modified:   ui-tui/packages/hermes-ink/src/hooks/use-stdout.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/Ansi.tsx
+	modified:   ui-tui/packages/hermes-ink/src/ink/app-mouse.test.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/app-rawmode-mouse.test.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/bidi.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/cache-eviction.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/clearTerminal.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/colorize.test.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/colorize.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/components/AlternateScreen.tsx
+	modified:   ui-tui/packages/hermes-ink/src/ink/components/App.tsx
+	modified:   ui-tui/packages/hermes-ink/src/ink/components/AppContext.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/components/Box.tsx
+	modified:   ui-tui/packages/hermes-ink/src/ink/components/Button.tsx
+	modified:   ui-tui/packages/hermes-ink/src/ink/components/ClockContext.tsx
+	modified:   ui-tui/packages/hermes-ink/src/ink/components/CursorAdvanceContext.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/components/CursorDeclarationContext.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/components/ErrorOverview.tsx
+	modified:   ui-tui/packages/hermes-ink/src/ink/components/Link.tsx
+	modified:   ui-tui/packages/hermes-ink/src/ink/components/Newline.tsx
+	modified:   ui-tui/packages/hermes-ink/src/ink/components/NoSelect.tsx
+	modified:   ui-tui/packages/hermes-ink/src/ink/components/RawAnsi.tsx
+	modified:   ui-tui/packages/hermes-ink/src/ink/components/ScrollBox.tsx
+	modified:   ui-tui/packages/hermes-ink/src/ink/components/Spacer.tsx
+	modified:   ui-tui/packages/hermes-ink/src/ink/components/StdinContext.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/components/TerminalFocusContext.tsx
+	modified:   ui-tui/packages/hermes-ink/src/ink/components/TerminalSizeContext.tsx
+	modified:   ui-tui/packages/hermes-ink/src/ink/components/Text.test.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/components/Text.tsx
+	modified:   ui-tui/packages/hermes-ink/src/ink/constants.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/cursor.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/devtools.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/dom.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/events/click-event.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/events/cmd-shortcuts.test.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/events/dispatcher.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/events/emitter.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/events/event-handlers.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/events/event.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/events/focus-event.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/events/input-event.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/events/keyboard-event.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/events/mouse-event.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/events/paste-event.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/events/resize-event.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/events/terminal-event.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/events/terminal-focus-event.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/focus.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/frame.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/get-max-width.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/global.d.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/hit-test.test.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/hit-test.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/hooks/use-animation-frame.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/hooks/use-app.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/hooks/use-cursor-advance.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/hooks/use-declared-cursor.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/hooks/use-external-process.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/hooks/use-input.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/hooks/use-interval.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/hooks/use-search-highlight.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/hooks/use-selection.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/hooks/use-stdin.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/hooks/use-tab-status.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/hooks/use-terminal-focus.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/hooks/use-terminal-title.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/hooks/use-terminal-viewport.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/hyperlinkHover.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/ink-cursor-advance.test.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/ink-resize.test.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/ink.tsx
+	modified:   ui-tui/packages/hermes-ink/src/ink/instances.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/layout/engine.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/layout/geometry.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/layout/node.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/layout/yoga.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/line-width-cache.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/log-update.test.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/log-update.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/lru.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/measure-element.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/measure-text.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/node-cache.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/optimizer.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/output.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/parse-keypress.test.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/parse-keypress.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/reconciler.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/render-border.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/render-to-screen.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/renderer.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/root.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/screen.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/searchHighlight.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/selection.test.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/selection.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/squash-text-nodes.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/stringWidth.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/styles.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/supports-hyperlinks.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/tabstops.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/terminal-focus-state.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/terminal.test.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/terminal.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/termio.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/termio/ansi.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/termio/csi.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/termio/dec.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/termio/esc.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/termio/osc.test.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/termio/osc.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/termio/parser.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/termio/sgr.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/termio/tokenize.test.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/termio/tokenize.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/termio/types.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/useTerminalNotification.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/warn.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/widest-line.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/wrap-text.test.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/wrap-text.ts
+	modified:   ui-tui/packages/hermes-ink/src/ink/wrapAnsi.ts
+	modified:   ui-tui/packages/hermes-ink/src/native-ts/yoga-layout/enums.ts
+	modified:   ui-tui/packages/hermes-ink/src/native-ts/yoga-layout/index.ts
+	modified:   ui-tui/packages/hermes-ink/src/utils/debug.ts
+	modified:   ui-tui/packages/hermes-ink/src/utils/earlyInput.ts
+	modified:   ui-tui/packages/hermes-ink/src/utils/env.ts
+	modified:   ui-tui/packages/hermes-ink/src/utils/envUtils.ts
+	modified:   ui-tui/packages/hermes-ink/src/utils/execFileNoThrow.test.ts
+	modified:   ui-tui/packages/hermes-ink/src/utils/execFileNoThrow.ts
+	modified:   ui-tui/packages/hermes-ink/src/utils/fullscreen.ts
+	modified:   ui-tui/packages/hermes-ink/src/utils/intl.ts
+	modified:   ui-tui/packages/hermes-ink/src/utils/log.ts
+	modified:   ui-tui/packages/hermes-ink/src/utils/semver.ts
+	modified:   ui-tui/packages/hermes-ink/src/utils/sliceAnsi.ts
+	modified:   ui-tui/packages/hermes-ink/text-input.d.ts
+	modified:   ui-tui/packages/hermes-ink/text-input.js
+	modified:   ui-tui/scripts/build.mjs
+	modified:   ui-tui/scripts/profile-tui.mjs
+	modified:   ui-tui/src/__tests__/activeSessionSwitcher.test.ts
+	modified:   ui-tui/src/__tests__/appChromeStatusRule.test.tsx
+	modified:   ui-tui/src/__tests__/appChromeStatusRuleDevCredits.test.tsx
+	modified:   ui-tui/src/__tests__/approvalAction.test.ts
+	modified:   ui-tui/src/__tests__/asCommandDispatch.test.ts
+	modified:   ui-tui/src/__tests__/blockLayout.test.ts
+	modified:   ui-tui/src/__tests__/clipboard.test.ts
+	modified:   ui-tui/src/__tests__/constants.test.ts
+	modified:   ui-tui/src/__tests__/createGatewayEventHandler.test.ts
+	modified:   ui-tui/src/__tests__/createSlashHandler.test.ts
+	modified:   ui-tui/src/__tests__/creditsCommand.test.ts
+	modified:   ui-tui/src/__tests__/cursorDriftRegression.test.ts
+	modified:   ui-tui/src/__tests__/details.test.ts
+	modified:   ui-tui/src/__tests__/emoji.test.ts
+	modified:   ui-tui/src/__tests__/externalLink.test.ts
+	modified:   ui-tui/src/__tests__/forceTruecolor.test.ts
+	modified:   ui-tui/src/__tests__/gatewayClient.test.ts
+	modified:   ui-tui/src/__tests__/gatewayRecovery.test.ts
+	modified:   ui-tui/src/__tests__/markdown.test.ts
+	modified:   ui-tui/src/__tests__/mathUnicode.test.ts
+	modified:   ui-tui/src/__tests__/memoryMonitor.test.ts
+	modified:   ui-tui/src/__tests__/messageLine.test.ts
+	modified:   ui-tui/src/__tests__/messages.test.ts
+	modified:   ui-tui/src/__tests__/orchestratorPromptSession.test.ts
+	modified:   ui-tui/src/__tests__/osc52.test.ts
+	modified:   ui-tui/src/__tests__/parentLog.test.ts
+	modified:   ui-tui/src/__tests__/paths.test.ts
+	modified:   ui-tui/src/__tests__/platform.test.ts
+	modified:   ui-tui/src/__tests__/precisionWheel.test.ts
+	modified:   ui-tui/src/__tests__/prompt.test.ts
+	modified:   ui-tui/src/__tests__/providers.test.ts
+	modified:   ui-tui/src/__tests__/reasoning.test.ts
+	modified:   ui-tui/src/__tests__/rpc.test.ts
+	modified:   ui-tui/src/__tests__/scroll.test.ts
+	modified:   ui-tui/src/__tests__/slashParity.test.ts
+	modified:   ui-tui/src/__tests__/spawnHistoryStore.test.ts
+	modified:   ui-tui/src/__tests__/stateIsolation.test.ts
+	modified:   ui-tui/src/__tests__/statusBarTicker.test.ts
+	modified:   ui-tui/src/__tests__/statusRule.test.ts
+	modified:   ui-tui/src/__tests__/streamingMarkdown.test.ts
+	modified:   ui-tui/src/__tests__/subagentTree.test.ts
+	modified:   ui-tui/src/__tests__/syntax.test.ts
+	modified:   ui-tui/src/__tests__/terminalModes.test.ts
+	modified:   ui-tui/src/__tests__/terminalParity.test.ts
+	modified:   ui-tui/src/__tests__/terminalSetup.test.ts
+	modified:   ui-tui/src/__tests__/termux.test.ts
+	modified:   ui-tui/src/__tests__/termuxComposerLayout.test.ts
+	modified:   ui-tui/src/__tests__/text.test.ts
+	modified:   ui-tui/src/__tests__/textInputBurstInput.test.ts
+	modified:   ui-tui/src/__tests__/textInputCursorSourceOfTruth.test.ts
+	modified:   ui-tui/src/__tests__/textInputFastEcho.test.ts
+	modified:   ui-tui/src/__tests__/textInputLineNav.test.ts
+	modified:   ui-tui/src/__tests__/textInputPassThrough.test.ts
+	modified:   ui-tui/src/__tests__/textInputRightClick.test.ts
+	modified:   ui-tui/src/__tests__/textInputWrap.test.ts
+	modified:   ui-tui/src/__tests__/theme.test.ts
+	modified:   ui-tui/src/__tests__/turnControllerNotice.test.ts
+	modified:   ui-tui/src/__tests__/turnStore.test.ts
+	modified:   ui-tui/src/__tests__/useCompletion.test.ts
+	modified:   ui-tui/src/__tests__/useComposerState.test.ts
+	modified:   ui-tui/src/__tests__/useConfigSync.test.ts
+	modified:   ui-tui/src/__tests__/useInputHandlers.test.ts
+	modified:   ui-tui/src/__tests__/useQueue.test.ts
+	modified:   ui-tui/src/__tests__/useSessionLifecycle.test.ts
+	modified:   ui-tui/src/__tests__/useVirtualHistoryHeights.test.ts
+	modified:   ui-tui/src/__tests__/viewport.test.ts
+	modified:   ui-tui/src/__tests__/viewportStore.test.ts
+	modified:   ui-tui/src/__tests__/virtualHeights.test.ts
+	modified:   ui-tui/src/__tests__/virtualHistoryClamp.test.ts
+	modified:   ui-tui/src/__tests__/virtualHistoryOffsetCache.test.ts
+	modified:   ui-tui/src/__tests__/wheelAccel.test.ts
+	modified:   ui-tui/src/app.tsx
+	modified:   ui-tui/src/app/createGatewayEventHandler.ts
+	modified:   ui-tui/src/app/createSlashHandler.ts
+	modified:   ui-tui/src/app/delegationStore.ts
+	modified:   ui-tui/src/app/gatewayContext.tsx
+	modified:   ui-tui/src/app/gatewayRecovery.ts
+	modified:   ui-tui/src/app/inputSelectionStore.ts
+	modified:   ui-tui/src/app/interfaces.ts
+	modified:   ui-tui/src/app/overlayStore.ts
+	modified:   ui-tui/src/app/scroll.ts
+	modified:   ui-tui/src/app/setupHandoff.ts
+	modified:   ui-tui/src/app/slash/commands/core.ts
+	modified:   ui-tui/src/app/slash/commands/credits.ts
+	modified:   ui-tui/src/app/slash/commands/debug.ts
+	modified:   ui-tui/src/app/slash/commands/ops.ts
+	modified:   ui-tui/src/app/slash/commands/session.ts
+	modified:   ui-tui/src/app/slash/commands/setup.ts
+	modified:   ui-tui/src/app/slash/registry.ts
+	modified:   ui-tui/src/app/slash/types.ts
+	modified:   ui-tui/src/app/spawnHistoryStore.ts
+	modified:   ui-tui/src/app/turnController.ts
+	modified:   ui-tui/src/app/turnStore.ts
+	modified:   ui-tui/src/app/uiStore.ts
+	modified:   ui-tui/src/app/useComposerState.ts
+	modified:   ui-tui/src/app/useConfigSync.ts
+	modified:   ui-tui/src/app/useInputHandlers.ts
+	modified:   ui-tui/src/app/useLongRunToolCharms.ts
+	modified:   ui-tui/src/app/useMainApp.ts
+	modified:   ui-tui/src/app/useSessionLifecycle.ts
+	modified:   ui-tui/src/app/useSubmission.ts
+	modified:   ui-tui/src/banner.ts
+	modified:   ui-tui/src/components/activeSessionSwitcher.tsx
+	modified:   ui-tui/src/components/agentsOverlay.tsx
+	modified:   ui-tui/src/components/appChrome.tsx
+	modified:   ui-tui/src/components/appLayout.tsx
+	modified:   ui-tui/src/components/appOverlays.tsx
+	modified:   ui-tui/src/components/branding.tsx
+	modified:   ui-tui/src/components/fpsOverlay.tsx
+	modified:   ui-tui/src/components/helpHint.tsx
+	modified:   ui-tui/src/components/markdown.tsx
+	modified:   ui-tui/src/components/maskedPrompt.tsx
+	modified:   ui-tui/src/components/messageLine.tsx
+	modified:   ui-tui/src/components/modelPicker.tsx
+	modified:   ui-tui/src/components/overlayControls.tsx
+	modified:   ui-tui/src/components/pluginsHub.tsx
+	modified:   ui-tui/src/components/prompts.tsx
+	modified:   ui-tui/src/components/queuedMessages.tsx
+	modified:   ui-tui/src/components/skillsHub.tsx
+	modified:   ui-tui/src/components/streamingAssistant.tsx
+	modified:   ui-tui/src/components/streamingMarkdown.tsx
+	modified:   ui-tui/src/components/textInput.tsx
+	modified:   ui-tui/src/components/themed.tsx
+	modified:   ui-tui/src/components/thinking.tsx
+	modified:   ui-tui/src/components/todoPanel.tsx
+	modified:   ui-tui/src/config/env.ts
+	modified:   ui-tui/src/config/limits.ts
+	modified:   ui-tui/src/config/timing.ts
+	modified:   ui-tui/src/content/charms.ts
+	modified:   ui-tui/src/content/faces.ts
+	modified:   ui-tui/src/content/fortunes.ts
+	modified:   ui-tui/src/content/hotkeys.ts
+	modified:   ui-tui/src/content/placeholders.ts
+	modified:   ui-tui/src/content/setup.ts
+	modified:   ui-tui/src/content/verbs.ts
+	modified:   ui-tui/src/domain/blockLayout.ts
+	modified:   ui-tui/src/domain/details.ts
+	modified:   ui-tui/src/domain/messages.ts
+	modified:   ui-tui/src/domain/paths.ts
+	modified:   ui-tui/src/domain/providers.ts
+	modified:   ui-tui/src/domain/roles.ts
+	modified:   ui-tui/src/domain/slash.ts
+	modified:   ui-tui/src/domain/usage.ts
+	modified:   ui-tui/src/domain/viewport.ts
+	modified:   ui-tui/src/entry.tsx
+	modified:   ui-tui/src/gatewayClient.ts
+	modified:   ui-tui/src/gatewayTypes.ts
+	modified:   ui-tui/src/hooks/useCompletion.ts
+	modified:   ui-tui/src/hooks/useGitBranch.ts
+	modified:   ui-tui/src/hooks/useInputHistory.ts
+	modified:   ui-tui/src/hooks/useQueue.ts
+	modified:   ui-tui/src/hooks/useVirtualHistory.ts
+	modified:   ui-tui/src/lib/circularBuffer.ts
+	modified:   ui-tui/src/lib/clipboard.ts
+	modified:   ui-tui/src/lib/editor.test.ts
+	modified:   ui-tui/src/lib/editor.ts
+	modified:   ui-tui/src/lib/emoji.ts
+	modified:   ui-tui/src/lib/externalCli.ts
+	modified:   ui-tui/src/lib/externalLink.ts
+	modified:   ui-tui/src/lib/forceTruecolor.ts
+	modified:   ui-tui/src/lib/fpsStore.ts
+	modified:   ui-tui/src/lib/fuzzy.test.ts
+	modified:   ui-tui/src/lib/fuzzy.ts
+	modified:   ui-tui/src/lib/gracefulExit.ts
+	modified:   ui-tui/src/lib/history.ts
+	modified:   ui-tui/src/lib/inputMetrics.ts
+	modified:   ui-tui/src/lib/liveProgress.test.ts
+	modified:   ui-tui/src/lib/liveProgress.ts
+	modified:   ui-tui/src/lib/mathUnicode.ts
+	modified:   ui-tui/src/lib/memory.test.ts
+	modified:   ui-tui/src/lib/memory.ts
+	modified:   ui-tui/src/lib/memoryMonitor.ts
+	modified:   ui-tui/src/lib/messages.test.ts
+	modified:   ui-tui/src/lib/messages.ts
+	modified:   ui-tui/src/lib/openExternalUrl.test.ts
+	modified:   ui-tui/src/lib/openExternalUrl.ts
+	modified:   ui-tui/src/lib/osc52.ts
+	modified:   ui-tui/src/lib/parentLog.ts
+	modified:   ui-tui/src/lib/perfPane.tsx
+	modified:   ui-tui/src/lib/platform.ts
+	modified:   ui-tui/src/lib/precisionWheel.ts
+	modified:   ui-tui/src/lib/prompt.ts
+	modified:   ui-tui/src/lib/reasoning.ts
+	modified:   ui-tui/src/lib/rpc.ts
+	modified:   ui-tui/src/lib/subagentTree.ts
+	modified:   ui-tui/src/lib/syntax.ts
+	modified:   ui-tui/src/lib/terminalModes.ts
+	modified:   ui-tui/src/lib/terminalParity.ts
+	modified:   ui-tui/src/lib/terminalSetup.ts
+	modified:   ui-tui/src/lib/termux.ts
+	modified:   ui-tui/src/lib/text.test.ts
+	modified:   ui-tui/src/lib/text.ts
+	modified:   ui-tui/src/lib/todo.test.ts
+	modified:   ui-tui/src/lib/todo.ts
+	modified:   ui-tui/src/lib/viewportStore.ts
+	modified:   ui-tui/src/lib/virtualHeights.ts
+	modified:   ui-tui/src/lib/wheelAccel.ts
+	modified:   ui-tui/src/protocol/interpolation.ts
+	modified:   ui-tui/src/protocol/paste.ts
+	modified:   ui-tui/src/theme.ts
+	modified:   ui-tui/src/types.ts
+	modified:   ui-tui/src/types/hermes-ink.d.ts
+	modified:   ui-tui/tsconfig.build.json
+	modified:   ui-tui/tsconfig.json
+	modified:   ui-tui/vitest.config.ts
+	modified:   web/README.md
+	modified:   web/eslint.config.js
+	modified:   web/index.html
+	modified:   web/package.json
+	modified:   web/src/App.tsx
+	modified:   web/src/components/AuthWidget.tsx
+	modified:   web/src/components/AutoField.tsx
+	modified:   web/src/components/AutomationBlueprints.tsx
+	modified:   web/src/components/Backdrop.tsx
+	modified:   web/src/components/ChatSidebar.tsx
+	modified:   web/src/components/ConfirmDialog.tsx
+	modified:   web/src/components/DeleteConfirmDialog.tsx
+	modified:   web/src/components/LanguageSwitcher.tsx
+	modified:   web/src/components/Markdown.tsx
+	modified:   web/src/components/ModelInfoCard.tsx
+	modified:   web/src/components/ModelPickerDialog.tsx
+	modified:   web/src/components/OAuthLoginModal.tsx
+	modified:   web/src/components/OAuthProvidersCard.tsx
+	modified:   web/src/components/PlatformsCard.tsx
+	modified:   web/src/components/ProfileScopeBanner.tsx
+	modified:   web/src/components/ProfileSwitcher.tsx
+	modified:   web/src/components/ScheduleBuilder.tsx
+	modified:   web/src/components/SidebarFooter.tsx
+	modified:   web/src/components/SidebarStatusStrip.tsx
+	modified:   web/src/components/SkillEditorDialog.tsx
+	modified:   web/src/components/SlashPopover.tsx
+	modified:   web/src/components/ThemeSwitcher.tsx
+	modified:   web/src/components/ToolCall.tsx
+	modified:   web/src/components/ToolsetConfigDrawer.tsx
+	modified:   web/src/contexts/PageHeaderProvider.tsx
+	modified:   web/src/contexts/ProfileProvider.tsx
+	modified:   web/src/contexts/SystemActions.tsx
+	modified:   web/src/contexts/page-header-context.ts
+	modified:   web/src/contexts/profile-context.ts
+	modified:   web/src/contexts/system-actions-context.ts
+	modified:   web/src/contexts/usePageHeader.ts
+	modified:   web/src/contexts/useProfileScope.ts
+	modified:   web/src/contexts/useSystemActions.ts
+	modified:   web/src/hooks/useModalBehavior.ts
+	modified:   web/src/hooks/useSidebarStatus.ts
+	modified:   web/src/i18n/context.tsx
+	modified:   web/src/i18n/index.ts
+	modified:   web/src/index.css
+	modified:   web/src/lib/dashboard-flags.ts
+	modified:   web/src/lib/format.ts
+	modified:   web/src/lib/fuzzy.ts
+	modified:   web/src/lib/gatewayClient.ts
+	modified:   web/src/lib/nested.ts
+	modified:   web/src/lib/resolve-page-title.ts
+	modified:   web/src/lib/schedule.ts
+	modified:   web/src/lib/slashExec.ts
+	modified:   web/src/lib/utils.ts
+	modified:   web/src/main.tsx
+	modified:   web/src/pages/AnalyticsPage.tsx
+	modified:   web/src/pages/ChannelsPage.tsx
+	modified:   web/src/pages/ChatPage.tsx
+	modified:   web/src/pages/ConfigPage.tsx
+	modified:   web/src/pages/CronPage.tsx
+	modified:   web/src/pages/DocsPage.tsx
+	modified:   web/src/pages/EnvPage.tsx
+	modified:   web/src/pages/FilesPage.tsx
+	modified:   web/src/pages/LogsPage.tsx
+	modified:   web/src/pages/McpPage.tsx
+	modified:   web/src/pages/PairingPage.tsx
+	modified:   web/src/pages/PluginsPage.tsx
+	modified:   web/src/pages/SkillsPage.tsx
+	modified:   web/src/pages/SystemPage.tsx
+	modified:   web/src/pages/WebhooksPage.tsx
+	modified:   web/src/plugins/PluginPage.tsx
+	modified:   web/src/plugins/index.ts
+	modified:   web/src/plugins/registry.ts
+	modified:   web/src/plugins/sdk.d.ts
+	modified:   web/src/plugins/slots.ts
+	modified:   web/src/plugins/types.ts
+	modified:   web/src/plugins/usePlugins.ts
+	modified:   web/src/themes/context.tsx
+	modified:   web/src/themes/fonts.ts
+	modified:   web/src/themes/index.ts
+	modified:   web/src/themes/presets.ts
+	modified:   web/src/themes/types.ts
+	modified:   web/tsconfig.app.json
+	modified:   web/tsconfig.json
+	modified:   web/tsconfig.node.json
+	modified:   web/vite.config.ts
+	modified:   website/.gitignore
+	modified:   website/README.md
+	modified:   website/docs/developer-guide/_category_.json
+	modified:   website/docs/developer-guide/acp-internals.md
+	modified:   website/docs/developer-guide/adding-platform-adapters.md
+	modified:   website/docs/developer-guide/adding-providers.md
+	modified:   website/docs/developer-guide/adding-tools.md
+	modified:   website/docs/developer-guide/agent-loop.md
+	modified:   website/docs/developer-guide/architecture.md
+	modified:   website/docs/developer-guide/browser-supervisor.md
+	modified:   website/docs/developer-guide/context-compression-and-caching.md
+	modified:   website/docs/developer-guide/context-engine-plugin.md
+	modified:   website/docs/developer-guide/contributing.md
+	modified:   website/docs/developer-guide/creating-skills.md
+	modified:   website/docs/developer-guide/cron-internals.md
+	modified:   website/docs/developer-guide/extending-the-cli.md
+	modified:   website/docs/developer-guide/gateway-internals.md
+	modified:   website/docs/developer-guide/image-gen-provider-plugin.md
+	modified:   website/docs/developer-guide/memory-provider-plugin.md
+	modified:   website/docs/developer-guide/model-provider-plugin.md
+	modified:   website/docs/developer-guide/plugin-llm-access.md
+	modified:   website/docs/developer-guide/programmatic-integration.md
+	modified:   website/docs/developer-guide/prompt-assembly.md
+	modified:   website/docs/developer-guide/provider-runtime.md
+	modified:   website/docs/developer-guide/session-storage.md
+	modified:   website/docs/developer-guide/tools-runtime.md
+	modified:   website/docs/developer-guide/trajectory-format.md
+	modified:   website/docs/developer-guide/video-gen-provider-plugin.md
+	modified:   website/docs/developer-guide/web-search-provider-plugin.md
+	modified:   website/docs/getting-started/_category_.json
+	modified:   website/docs/getting-started/installation.md
+	modified:   website/docs/getting-started/learning-path.md
+	modified:   website/docs/getting-started/nix-setup.md
+	modified:   website/docs/getting-started/quickstart.md
+	modified:   website/docs/getting-started/termux.md
+	modified:   website/docs/getting-started/updating.md
+	modified:   website/docs/guides/_category_.json
+	modified:   website/docs/guides/automation-blueprints.md
+	modified:   website/docs/guides/aws-bedrock.md
+	modified:   website/docs/guides/azure-foundry.md
+	modified:   website/docs/guides/build-a-hermes-plugin.md
+	modified:   website/docs/guides/cron-script-only.md
+	modified:   website/docs/guides/daily-briefing-bot.md
+	modified:   website/docs/guides/delegation-patterns.md
+	modified:   website/docs/guides/github-pr-review-agent.md
+	modified:   website/docs/guides/google-gemini.md
+	modified:   website/docs/guides/local-llm-on-mac.md
+	modified:   website/docs/guides/local-ollama-setup.md
+	modified:   website/docs/guides/microsoft-graph-app-registration.md
+	modified:   website/docs/guides/migrate-from-openclaw.md
+	modified:   website/docs/guides/minimax-oauth.md
+	modified:   website/docs/guides/oauth-over-ssh.md
+	modified:   website/docs/guides/operate-teams-meeting-pipeline.md
+	modified:   website/docs/guides/pipe-script-output.md
+	modified:   website/docs/guides/python-library.md
+	modified:   website/docs/guides/run-hermes-with-nous-portal.md
+	modified:   website/docs/guides/run-nemotron-3-ultra-free.md
+	modified:   website/docs/guides/team-telegram-assistant.md
+	modified:   website/docs/guides/tips.md
+	modified:   website/docs/guides/use-mcp-with-hermes.md
+	modified:   website/docs/guides/use-soul-with-hermes.md
+	modified:   website/docs/guides/use-voice-mode-with-hermes.md
+	modified:   website/docs/guides/webhook-github-pr-review.md
+	modified:   website/docs/guides/work-with-skills.md
+	modified:   website/docs/guides/xai-grok-oauth.md
+	modified:   website/docs/index.mdx
+	modified:   website/docs/integrations/index.md
+	modified:   website/docs/integrations/nous-portal.md
+	modified:   website/docs/integrations/providers.md
+	modified:   website/docs/reference/_category_.json
+	modified:   website/docs/reference/automation-blueprints-catalog.mdx
+	modified:   website/docs/reference/mcp-config-reference.md
+	modified:   website/docs/reference/model-catalog.md
+	modified:   website/docs/reference/optional-skills-catalog.md
+	modified:   website/docs/reference/skills-catalog.md
+	modified:   website/docs/reference/slash-commands.md
+	modified:   website/docs/reference/tools-reference.md
+	modified:   website/docs/reference/toolsets-reference.md
+	modified:   website/docs/user-guide/_category_.json
+	modified:   website/docs/user-guide/checkpoints-and-rollback.md
+	modified:   website/docs/user-guide/cli.md
+	modified:   website/docs/user-guide/configuring-models.md
+	modified:   website/docs/user-guide/desktop.md
+	modified:   website/docs/user-guide/features/_category_.json
+	modified:   website/docs/user-guide/features/acp.md
+	modified:   website/docs/user-guide/features/api-server.md
+	modified:   website/docs/user-guide/features/batch-processing.md
+	modified:   website/docs/user-guide/features/browser.md
+	modified:   website/docs/user-guide/features/built-in-plugins.md
+	modified:   website/docs/user-guide/features/code-execution.md
+	modified:   website/docs/user-guide/features/codex-app-server-runtime.md
+	modified:   website/docs/user-guide/features/computer-use.md
+	modified:   website/docs/user-guide/features/context-files.md
+	modified:   website/docs/user-guide/features/context-references.md
+	modified:   website/docs/user-guide/features/credential-pools.md
+	modified:   website/docs/user-guide/features/curator.md
+	modified:   website/docs/user-guide/features/deliverable-mode.md
+	modified:   website/docs/user-guide/features/extending-the-dashboard.md
+	modified:   website/docs/user-guide/features/fallback-providers.md
+	modified:   website/docs/user-guide/features/goals.md
+	modified:   website/docs/user-guide/features/honcho.md
+	modified:   website/docs/user-guide/features/image-generation.md
+	modified:   website/docs/user-guide/features/kanban-tutorial.md
+	modified:   website/docs/user-guide/features/kanban-worker-lanes.md
+	modified:   website/docs/user-guide/features/kanban.md
+	modified:   website/docs/user-guide/features/lsp.md
+	modified:   website/docs/user-guide/features/mcp.md
+	modified:   website/docs/user-guide/features/memory-providers.md
+	modified:   website/docs/user-guide/features/memory.md
+	modified:   website/docs/user-guide/features/overview.md
+	modified:   website/docs/user-guide/features/personality.md
+	modified:   website/docs/user-guide/features/plugins.md
+	modified:   website/docs/user-guide/features/provider-routing.md
+	modified:   website/docs/user-guide/features/skills.md
+	modified:   website/docs/user-guide/features/skins.md
+	modified:   website/docs/user-guide/features/spotify.md
+	modified:   website/docs/user-guide/features/subscription-proxy.md
+	modified:   website/docs/user-guide/features/tool-gateway.md
+	modified:   website/docs/user-guide/features/tool-search.md
+	modified:   website/docs/user-guide/features/tools.md
+	modified:   website/docs/user-guide/features/tts.md
+	modified:   website/docs/user-guide/features/vision.md
+	modified:   website/docs/user-guide/features/voice-mode.md
+	modified:   website/docs/user-guide/features/web-dashboard.md
+	modified:   website/docs/user-guide/features/web-search.md
+	modified:   website/docs/user-guide/features/x-search.md
+	modified:   website/docs/user-guide/git-worktrees.md
+	modified:   website/docs/user-guide/messaging/_category_.json
+	modified:   website/docs/user-guide/messaging/bluebubbles.md
+	modified:   website/docs/user-guide/messaging/dingtalk.md
+	modified:   website/docs/user-guide/messaging/discord.md
+	modified:   website/docs/user-guide/messaging/email.md
+	modified:   website/docs/user-guide/messaging/feishu.md
+	modified:   website/docs/user-guide/messaging/google_chat.md
+	modified:   website/docs/user-guide/messaging/homeassistant.md
+	modified:   website/docs/user-guide/messaging/line.md
+	modified:   website/docs/user-guide/messaging/matrix.md
+	modified:   website/docs/user-guide/messaging/mattermost.md
+	modified:   website/docs/user-guide/messaging/msgraph-webhook.md
+	modified:   website/docs/user-guide/messaging/ntfy.md
+	modified:   website/docs/user-guide/messaging/open-webui.md
+	modified:   website/docs/user-guide/messaging/qqbot.md
+	modified:   website/docs/user-guide/messaging/signal.md
+	modified:   website/docs/user-guide/messaging/simplex.md
+	modified:   website/docs/user-guide/messaging/slack.md
+	modified:   website/docs/user-guide/messaging/sms.md
+	modified:   website/docs/user-guide/messaging/teams-meetings.md
+	modified:   website/docs/user-guide/messaging/teams.md
+	modified:   website/docs/user-guide/messaging/webhooks.md
+	modified:   website/docs/user-guide/messaging/wecom-callback.md
+	modified:   website/docs/user-guide/messaging/wecom.md
+	modified:   website/docs/user-guide/messaging/weixin.md
+	modified:   website/docs/user-guide/messaging/whatsapp-cloud.md
+	modified:   website/docs/user-guide/messaging/whatsapp.md
+	modified:   website/docs/user-guide/messaging/yuanbao.md
+	modified:   website/docs/user-guide/multi-profile-gateways.md
+	modified:   website/docs/user-guide/profile-distributions.md
+	modified:   website/docs/user-guide/secrets/bitwarden.md
+	modified:   website/docs/user-guide/secrets/index.md
+	modified:   website/docs/user-guide/security.md
+	modified:   website/docs/user-guide/sessions.md
+	modified:   website/docs/user-guide/skills/bundled/apple/apple-apple-notes.md
+	modified:   website/docs/user-guide/skills/bundled/apple/apple-apple-reminders.md
+	modified:   website/docs/user-guide/skills/bundled/apple/apple-findmy.md
+	modified:   website/docs/user-guide/skills/bundled/apple/apple-imessage.md
+	modified:   website/docs/user-guide/skills/bundled/apple/apple-macos-computer-use.md
+	modified:   website/docs/user-guide/skills/bundled/autonomous-ai-agents/autonomous-ai-agents-claude-code.md
+	modified:   website/docs/user-guide/skills/bundled/autonomous-ai-agents/autonomous-ai-agents-codex.md
+	modified:   website/docs/user-guide/skills/bundled/autonomous-ai-agents/autonomous-ai-agents-hermes-agent.md
+	modified:   website/docs/user-guide/skills/bundled/autonomous-ai-agents/autonomous-ai-agents-kanban-codex-lane.md
+	modified:   website/docs/user-guide/skills/bundled/autonomous-ai-agents/autonomous-ai-agents-opencode.md
+	modified:   website/docs/user-guide/skills/bundled/creative/creative-architecture-diagram.md
+	modified:   website/docs/user-guide/skills/bundled/creative/creative-ascii-art.md
+	modified:   website/docs/user-guide/skills/bundled/creative/creative-ascii-video.md
+	modified:   website/docs/user-guide/skills/bundled/creative/creative-baoyu-infographic.md
+	modified:   website/docs/user-guide/skills/bundled/creative/creative-claude-design.md
+	modified:   website/docs/user-guide/skills/bundled/creative/creative-comfyui.md
+	modified:   website/docs/user-guide/skills/bundled/creative/creative-design-md.md
+	modified:   website/docs/user-guide/skills/bundled/creative/creative-excalidraw.md
+	modified:   website/docs/user-guide/skills/bundled/creative/creative-humanizer.md
+	modified:   website/docs/user-guide/skills/bundled/creative/creative-manim-video.md
+	modified:   website/docs/user-guide/skills/bundled/creative/creative-p5js.md
+	modified:   website/docs/user-guide/skills/bundled/creative/creative-popular-web-designs.md
+	modified:   website/docs/user-guide/skills/bundled/creative/creative-pretext.md
+	modified:   website/docs/user-guide/skills/bundled/creative/creative-sketch.md
+	modified:   website/docs/user-guide/skills/bundled/creative/creative-songwriting-and-ai-music.md
+	modified:   website/docs/user-guide/skills/bundled/creative/creative-touchdesigner-mcp.md
+	modified:   website/docs/user-guide/skills/bundled/data-science/data-science-jupyter-live-kernel.md
+	modified:   website/docs/user-guide/skills/bundled/devops/devops-kanban-orchestrator.md
+	modified:   website/docs/user-guide/skills/bundled/devops/devops-kanban-worker.md
+	modified:   website/docs/user-guide/skills/bundled/dogfood/dogfood-dogfood.md
+	modified:   website/docs/user-guide/skills/bundled/email/email-himalaya.md
+	modified:   website/docs/user-guide/skills/bundled/github/github-codebase-inspection.md
+	modified:   website/docs/user-guide/skills/bundled/github/github-github-auth.md
+	modified:   website/docs/user-guide/skills/bundled/github/github-github-code-review.md
+	modified:   website/docs/user-guide/skills/bundled/github/github-github-issues.md
+	modified:   website/docs/user-guide/skills/bundled/github/github-github-pr-workflow.md
+	modified:   website/docs/user-guide/skills/bundled/github/github-github-repo-management.md
+	modified:   website/docs/user-guide/skills/bundled/media/media-gif-search.md
+	modified:   website/docs/user-guide/skills/bundled/media/media-heartmula.md
+	modified:   website/docs/user-guide/skills/bundled/media/media-songsee.md
+	modified:   website/docs/user-guide/skills/bundled/mlops/mlops-evaluation-lm-evaluation-harness.md
+	modified:   website/docs/user-guide/skills/bundled/mlops/mlops-evaluation-weights-and-biases.md
+	modified:   website/docs/user-guide/skills/bundled/mlops/mlops-huggingface-hub.md
+	modified:   website/docs/user-guide/skills/bundled/mlops/mlops-inference-llama-cpp.md
+	modified:   website/docs/user-guide/skills/bundled/mlops/mlops-inference-vllm.md
+	modified:   website/docs/user-guide/skills/bundled/mlops/mlops-models-audiocraft.md
+	modified:   website/docs/user-guide/skills/bundled/mlops/mlops-models-segment-anything.md
+	modified:   website/docs/user-guide/skills/bundled/note-taking/note-taking-obsidian.md
+	modified:   website/docs/user-guide/skills/bundled/productivity/productivity-airtable.md
+	modified:   website/docs/user-guide/skills/bundled/productivity/productivity-google-workspace.md
+	modified:   website/docs/user-guide/skills/bundled/productivity/productivity-maps.md
+	modified:   website/docs/user-guide/skills/bundled/productivity/productivity-nano-pdf.md
+	modified:   website/docs/user-guide/skills/bundled/productivity/productivity-notion.md
+	modified:   website/docs/user-guide/skills/bundled/productivity/productivity-ocr-and-documents.md
+	modified:   website/docs/user-guide/skills/bundled/productivity/productivity-powerpoint.md
+	modified:   website/docs/user-guide/skills/bundled/productivity/productivity-teams-meeting-pipeline.md
+	modified:   website/docs/user-guide/skills/bundled/research/research-arxiv.md
+	modified:   website/docs/user-guide/skills/bundled/research/research-blogwatcher.md
+	modified:   website/docs/user-guide/skills/bundled/research/research-llm-wiki.md
+	modified:   website/docs/user-guide/skills/bundled/research/research-polymarket.md
+	modified:   website/docs/user-guide/skills/bundled/research/research-research-paper-writing.md
+	modified:   website/docs/user-guide/skills/bundled/smart-home/smart-home-openhue.md
+	modified:   website/docs/user-guide/skills/bundled/social-media/social-media-xurl.md
+	modified:   website/docs/user-guide/skills/bundled/software-development/software-development-hermes-agent-skill-authoring.md
+	modified:   website/docs/user-guide/skills/bundled/software-development/software-development-node-inspect-debugger.md
+	modified:   website/docs/user-guide/skills/bundled/software-development/software-development-plan.md
+	modified:   website/docs/user-guide/skills/bundled/software-development/software-development-python-debugpy.md
+	modified:   website/docs/user-guide/skills/bundled/software-development/software-development-requesting-code-review.md
+	modified:   website/docs/user-guide/skills/bundled/software-development/software-development-simplify-code.md
+	modified:   website/docs/user-guide/skills/bundled/software-development/software-development-spike.md
+	modified:   website/docs/user-guide/skills/bundled/software-development/software-development-systematic-debugging.md
+	modified:   website/docs/user-guide/skills/bundled/software-development/software-development-test-driven-development.md
+	modified:   website/docs/user-guide/skills/bundled/yuanbao/yuanbao-yuanbao.md
+	modified:   website/docs/user-guide/skills/google-workspace.md
+	modified:   website/docs/user-guide/skills/optional/autonomous-ai-agents/autonomous-ai-agents-antigravity-cli.md
+	modified:   website/docs/user-guide/skills/optional/autonomous-ai-agents/autonomous-ai-agents-blackbox.md
+	modified:   website/docs/user-guide/skills/optional/autonomous-ai-agents/autonomous-ai-agents-grok.md
+	modified:   website/docs/user-guide/skills/optional/autonomous-ai-agents/autonomous-ai-agents-honcho.md
+	modified:   website/docs/user-guide/skills/optional/autonomous-ai-agents/autonomous-ai-agents-openhands.md
+	modified:   website/docs/user-guide/skills/optional/blockchain/blockchain-evm.md
+	modified:   website/docs/user-guide/skills/optional/blockchain/blockchain-hyperliquid.md
+	modified:   website/docs/user-guide/skills/optional/blockchain/blockchain-solana.md
+	modified:   website/docs/user-guide/skills/optional/communication/communication-one-three-one-rule.md
+	modified:   website/docs/user-guide/skills/optional/creative/creative-baoyu-article-illustrator.md
+	modified:   website/docs/user-guide/skills/optional/creative/creative-baoyu-comic.md
+	modified:   website/docs/user-guide/skills/optional/creative/creative-blender-mcp.md
+	modified:   website/docs/user-guide/skills/optional/creative/creative-concept-diagrams.md
+	modified:   website/docs/user-guide/skills/optional/creative/creative-creative-ideation.md
+	modified:   website/docs/user-guide/skills/optional/creative/creative-hyperframes.md
+	modified:   website/docs/user-guide/skills/optional/creative/creative-kanban-video-orchestrator.md
+	modified:   website/docs/user-guide/skills/optional/creative/creative-meme-generation.md
+	modified:   website/docs/user-guide/skills/optional/creative/creative-pixel-art.md
+	modified:   website/docs/user-guide/skills/optional/devops/devops-cli.md
+	modified:   website/docs/user-guide/skills/optional/devops/devops-docker-management.md
+	modified:   website/docs/user-guide/skills/optional/devops/devops-hermes-s6-container-supervision.md
+	modified:   website/docs/user-guide/skills/optional/devops/devops-pinggy-tunnel.md
+	modified:   website/docs/user-guide/skills/optional/devops/devops-watchers.md
+	modified:   website/docs/user-guide/skills/optional/dogfood/dogfood-adversarial-ux-test.md
+	modified:   website/docs/user-guide/skills/optional/email/email-agentmail.md
+	modified:   website/docs/user-guide/skills/optional/finance/finance-3-statement-model.md
+	modified:   website/docs/user-guide/skills/optional/finance/finance-comps-analysis.md
+	modified:   website/docs/user-guide/skills/optional/finance/finance-dcf-model.md
+	modified:   website/docs/user-guide/skills/optional/finance/finance-excel-author.md
+	modified:   website/docs/user-guide/skills/optional/finance/finance-lbo-model.md
+	modified:   website/docs/user-guide/skills/optional/finance/finance-merger-model.md
+	modified:   website/docs/user-guide/skills/optional/finance/finance-pptx-author.md
+	modified:   website/docs/user-guide/skills/optional/finance/finance-stocks.md
+	modified:   website/docs/user-guide/skills/optional/gaming/gaming-minecraft-modpack-server.md
+	modified:   website/docs/user-guide/skills/optional/gaming/gaming-pokemon-player.md
+	modified:   website/docs/user-guide/skills/optional/health/health-fitness-nutrition.md
+	modified:   website/docs/user-guide/skills/optional/health/health-neuroskill-bci.md
+	modified:   website/docs/user-guide/skills/optional/mcp/mcp-fastmcp.md
+	modified:   website/docs/user-guide/skills/optional/mcp/mcp-mcporter.md
+	modified:   website/docs/user-guide/skills/optional/migration/migration-openclaw-migration.md
+	modified:   website/docs/user-guide/skills/optional/mlops/mlops-accelerate.md
+	modified:   website/docs/user-guide/skills/optional/mlops/mlops-chroma.md
+	modified:   website/docs/user-guide/skills/optional/mlops/mlops-clip.md
+	modified:   website/docs/user-guide/skills/optional/mlops/mlops-faiss.md
+	modified:   website/docs/user-guide/skills/optional/mlops/mlops-flash-attention.md
+	modified:   website/docs/user-guide/skills/optional/mlops/mlops-guidance.md
+	modified:   website/docs/user-guide/skills/optional/mlops/mlops-huggingface-tokenizers.md
+	modified:   website/docs/user-guide/skills/optional/mlops/mlops-inference-outlines.md
+	modified:   website/docs/user-guide/skills/optional/mlops/mlops-instructor.md
+	modified:   website/docs/user-guide/skills/optional/mlops/mlops-lambda-labs.md
+	modified:   website/docs/user-guide/skills/optional/mlops/mlops-llava.md
+	modified:   website/docs/user-guide/skills/optional/mlops/mlops-modal.md
+	modified:   website/docs/user-guide/skills/optional/mlops/mlops-nemo-curator.md
+	modified:   website/docs/user-guide/skills/optional/mlops/mlops-obliteratus.md
+	modified:   website/docs/user-guide/skills/optional/mlops/mlops-peft.md
+	modified:   website/docs/user-guide/skills/optional/mlops/mlops-pinecone.md
+	modified:   website/docs/user-guide/skills/optional/mlops/mlops-pytorch-fsdp.md
+	modified:   website/docs/user-guide/skills/optional/mlops/mlops-pytorch-lightning.md
+	modified:   website/docs/user-guide/skills/optional/mlops/mlops-qdrant.md
+	modified:   website/docs/user-guide/skills/optional/mlops/mlops-research-dspy.md
+	modified:   website/docs/user-guide/skills/optional/mlops/mlops-saelens.md
+	modified:   website/docs/user-guide/skills/optional/mlops/mlops-simpo.md
+	modified:   website/docs/user-guide/skills/optional/mlops/mlops-slime.md
+	modified:   website/docs/user-guide/skills/optional/mlops/mlops-stable-diffusion.md
+	modified:   website/docs/user-guide/skills/optional/mlops/mlops-tensorrt-llm.md
+	modified:   website/docs/user-guide/skills/optional/mlops/mlops-torchtitan.md
+	modified:   website/docs/user-guide/skills/optional/mlops/mlops-training-axolotl.md
+	modified:   website/docs/user-guide/skills/optional/mlops/mlops-training-trl-fine-tuning.md
+	modified:   website/docs/user-guide/skills/optional/mlops/mlops-training-unsloth.md
+	modified:   website/docs/user-guide/skills/optional/mlops/mlops-whisper.md
+	modified:   website/docs/user-guide/skills/optional/productivity/productivity-canvas.md
+	modified:   website/docs/user-guide/skills/optional/productivity/productivity-here-now.md
+	modified:   website/docs/user-guide/skills/optional/productivity/productivity-memento-flashcards.md
+	modified:   website/docs/user-guide/skills/optional/productivity/productivity-shop-app.md
+	modified:   website/docs/user-guide/skills/optional/productivity/productivity-shopify.md
+	modified:   website/docs/user-guide/skills/optional/productivity/productivity-siyuan.md
+	modified:   website/docs/user-guide/skills/optional/productivity/productivity-telephony.md
+	modified:   website/docs/user-guide/skills/optional/research/research-bioinformatics.md
+	modified:   website/docs/user-guide/skills/optional/research/research-darwinian-evolver.md
+	modified:   website/docs/user-guide/skills/optional/research/research-domain-intel.md
+	modified:   website/docs/user-guide/skills/optional/research/research-drug-discovery.md
+	modified:   website/docs/user-guide/skills/optional/research/research-duckduckgo-search.md
+	modified:   website/docs/user-guide/skills/optional/research/research-gitnexus-explorer.md
+	modified:   website/docs/user-guide/skills/optional/research/research-osint-investigation.md
+	modified:   website/docs/user-guide/skills/optional/research/research-parallel-cli.md
+	modified:   website/docs/user-guide/skills/optional/research/research-qmd.md
+	modified:   website/docs/user-guide/skills/optional/research/research-scrapling.md
+	modified:   website/docs/user-guide/skills/optional/research/research-searxng-search.md
+	modified:   website/docs/user-guide/skills/optional/security/security-1password.md
+	modified:   website/docs/user-guide/skills/optional/security/security-godmode.md
+	modified:   website/docs/user-guide/skills/optional/security/security-oss-forensics.md
+	modified:   website/docs/user-guide/skills/optional/security/security-sherlock.md
+	modified:   website/docs/user-guide/skills/optional/security/security-web-pentest.md
+	modified:   website/docs/user-guide/skills/optional/software-development/software-development-code-wiki.md
+	modified:   website/docs/user-guide/skills/optional/software-development/software-development-rest-graphql-debug.md
+	modified:   website/docs/user-guide/skills/optional/software-development/software-development-subagent-driven-development.md
+	modified:   website/docs/user-guide/skills/optional/web-development/web-development-page-agent.md
+	modified:   website/docs/user-guide/tui.md
+	modified:   website/docs/user-guide/windows-native.md
+	modified:   website/docs/user-guide/windows-wsl-quickstart.md
+	modified:   website/docs/user-stories.mdx
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/acp-internals.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/adding-platform-adapters.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/adding-providers.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/adding-tools.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/agent-loop.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/architecture.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/browser-supervisor.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/context-compression-and-caching.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/context-engine-plugin.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/contributing.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/creating-skills.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/cron-internals.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/extending-the-cli.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/gateway-internals.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/image-gen-provider-plugin.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/memory-provider-plugin.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/model-provider-plugin.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/plugin-llm-access.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/programmatic-integration.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/prompt-assembly.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/provider-runtime.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/session-storage.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/tools-runtime.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/trajectory-format.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/video-gen-provider-plugin.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/web-search-provider-plugin.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/getting-started/installation.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/getting-started/learning-path.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/getting-started/nix-setup.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/getting-started/quickstart.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/getting-started/termux.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/getting-started/updating.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/automate-with-cron.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/automation-blueprints.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/aws-bedrock.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/azure-foundry.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/build-a-hermes-plugin.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/cron-script-only.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/cron-troubleshooting.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/daily-briefing-bot.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/delegation-patterns.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/github-pr-review-agent.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/google-gemini.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/local-llm-on-mac.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/local-ollama-setup.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/microsoft-graph-app-registration.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/migrate-from-openclaw.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/minimax-oauth.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/oauth-over-ssh.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/operate-teams-meeting-pipeline.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/pipe-script-output.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/python-library.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/run-hermes-with-nous-portal.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/team-telegram-assistant.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/tips.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/use-mcp-with-hermes.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/use-soul-with-hermes.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/use-voice-mode-with-hermes.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/webhook-github-pr-review.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/work-with-skills.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/xai-grok-oauth.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/index.mdx
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/integrations/index.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/integrations/nous-portal.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/integrations/providers.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/reference/environment-variables.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/reference/mcp-config-reference.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/reference/model-catalog.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/reference/optional-skills-catalog.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/reference/skills-catalog.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/reference/slash-commands.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/reference/tools-reference.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/reference/toolsets-reference.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/checkpoints-and-rollback.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/cli.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/configuration.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/configuring-models.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/docker.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/acp.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/api-server.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/batch-processing.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/browser.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/built-in-plugins.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/code-execution.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/codex-app-server-runtime.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/computer-use.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/context-files.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/context-references.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/credential-pools.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/cron.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/curator.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/deliverable-mode.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/extending-the-dashboard.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/fallback-providers.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/goals.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/honcho.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/hooks.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/image-generation.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/kanban-tutorial.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/kanban-worker-lanes.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/kanban.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/lsp.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/mcp.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/memory-providers.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/memory.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/overview.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/personality.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/plugins.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/provider-routing.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/skills.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/skins.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/spotify.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/subscription-proxy.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/tool-gateway.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/tools.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/tts.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/vision.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/voice-mode.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/web-dashboard.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/web-search.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/x-search.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/git-worktrees.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/bluebubbles.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/dingtalk.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/discord.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/email.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/feishu.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/google_chat.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/homeassistant.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/index.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/line.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/matrix.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/mattermost.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/msgraph-webhook.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/ntfy.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/open-webui.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/qqbot.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/signal.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/simplex.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/slack.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/sms.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/teams-meetings.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/teams.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/webhooks.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/wecom-callback.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/wecom.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/weixin.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/whatsapp.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/yuanbao.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/profile-distributions.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/secrets/bitwarden.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/secrets/index.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/security.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/sessions.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/apple/apple-apple-notes.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/apple/apple-apple-reminders.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/apple/apple-findmy.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/apple/apple-imessage.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/apple/apple-macos-computer-use.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/autonomous-ai-agents/autonomous-ai-agents-claude-code.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/autonomous-ai-agents/autonomous-ai-agents-codex.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/autonomous-ai-agents/autonomous-ai-agents-hermes-agent.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/autonomous-ai-agents/autonomous-ai-agents-opencode.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/creative/creative-architecture-diagram.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/creative/creative-ascii-art.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/creative/creative-ascii-video.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/creative/creative-baoyu-infographic.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/creative/creative-claude-design.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/creative/creative-comfyui.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/creative/creative-design-md.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/creative/creative-excalidraw.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/creative/creative-humanizer.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/creative/creative-manim-video.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/creative/creative-p5js.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/creative/creative-popular-web-designs.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/creative/creative-pretext.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/creative/creative-sketch.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/creative/creative-songwriting-and-ai-music.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/creative/creative-touchdesigner-mcp.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/data-science/data-science-jupyter-live-kernel.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/devops/devops-kanban-orchestrator.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/devops/devops-kanban-worker.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/dogfood/dogfood-dogfood.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/email/email-himalaya.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/github/github-codebase-inspection.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/github/github-github-auth.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/github/github-github-code-review.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/github/github-github-issues.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/github/github-github-pr-workflow.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/github/github-github-repo-management.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/media/media-gif-search.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/media/media-heartmula.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/media/media-songsee.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/media/media-youtube-content.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/mlops/mlops-evaluation-lm-evaluation-harness.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/mlops/mlops-evaluation-weights-and-biases.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/mlops/mlops-huggingface-hub.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/mlops/mlops-inference-llama-cpp.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/mlops/mlops-inference-vllm.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/mlops/mlops-models-audiocraft.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/mlops/mlops-models-segment-anything.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/note-taking/note-taking-obsidian.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/productivity/productivity-airtable.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/productivity/productivity-google-workspace.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/productivity/productivity-maps.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/productivity/productivity-nano-pdf.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/productivity/productivity-notion.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/productivity/productivity-ocr-and-documents.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/productivity/productivity-powerpoint.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/productivity/productivity-teams-meeting-pipeline.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/research/research-arxiv.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/research/research-blogwatcher.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/research/research-llm-wiki.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/research/research-polymarket.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/research/research-research-paper-writing.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/smart-home/smart-home-openhue.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/social-media/social-media-xurl.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/software-development/software-development-hermes-agent-skill-authoring.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/software-development/software-development-node-inspect-debugger.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/software-development/software-development-plan.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/software-development/software-development-python-debugpy.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/software-development/software-development-requesting-code-review.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/software-development/software-development-spike.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/software-development/software-development-systematic-debugging.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/software-development/software-development-test-driven-development.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/yuanbao/yuanbao-yuanbao.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/google-workspace.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/autonomous-ai-agents/autonomous-ai-agents-blackbox.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/autonomous-ai-agents/autonomous-ai-agents-honcho.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/blockchain/blockchain-evm.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/blockchain/blockchain-hyperliquid.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/blockchain/blockchain-solana.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/communication/communication-one-three-one-rule.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/creative/creative-blender-mcp.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/creative/creative-concept-diagrams.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/creative/creative-hyperframes.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/creative/creative-kanban-video-orchestrator.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/creative/creative-meme-generation.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/devops/devops-cli.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/devops/devops-docker-management.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/devops/devops-pinggy-tunnel.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/devops/devops-watchers.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/dogfood/dogfood-adversarial-ux-test.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/email/email-agentmail.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/finance/finance-3-statement-model.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/finance/finance-comps-analysis.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/finance/finance-dcf-model.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/finance/finance-excel-author.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/finance/finance-lbo-model.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/finance/finance-merger-model.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/finance/finance-pptx-author.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/finance/finance-stocks.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/health/health-fitness-nutrition.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/health/health-neuroskill-bci.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/mcp/mcp-fastmcp.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/mcp/mcp-mcporter.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/migration/migration-openclaw-migration.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/mlops/mlops-accelerate.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/mlops/mlops-chroma.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/mlops/mlops-clip.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/mlops/mlops-faiss.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/mlops/mlops-flash-attention.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/mlops/mlops-guidance.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/mlops/mlops-huggingface-tokenizers.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/mlops/mlops-inference-outlines.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/mlops/mlops-instructor.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/mlops/mlops-lambda-labs.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/mlops/mlops-llava.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/mlops/mlops-modal.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/mlops/mlops-nemo-curator.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/mlops/mlops-peft.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/mlops/mlops-pinecone.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/mlops/mlops-pytorch-fsdp.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/mlops/mlops-pytorch-lightning.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/mlops/mlops-qdrant.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/mlops/mlops-saelens.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/mlops/mlops-simpo.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/mlops/mlops-slime.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/mlops/mlops-stable-diffusion.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/mlops/mlops-tensorrt-llm.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/mlops/mlops-torchtitan.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/mlops/mlops-training-axolotl.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/mlops/mlops-training-trl-fine-tuning.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/mlops/mlops-training-unsloth.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/mlops/mlops-whisper.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/productivity/productivity-canvas.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/productivity/productivity-here-now.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/productivity/productivity-memento-flashcards.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/productivity/productivity-shop-app.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/productivity/productivity-shopify.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/productivity/productivity-siyuan.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/productivity/productivity-telephony.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/research/research-bioinformatics.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/research/research-darwinian-evolver.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/research/research-domain-intel.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/research/research-drug-discovery.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/research/research-duckduckgo-search.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/research/research-gitnexus-explorer.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/research/research-osint-investigation.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/research/research-parallel-cli.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/research/research-qmd.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/research/research-scrapling.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/research/research-searxng-search.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/security/security-1password.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/security/security-oss-forensics.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/security/security-sherlock.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/software-development/software-development-rest-graphql-debug.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/web-development/web-development-page-agent.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/tui.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/windows-native.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/windows-wsl-quickstart.md
+	modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-stories.mdx
+	modified:   website/scripts/extract-automation-blueprints.py
+	modified:   website/scripts/extract-skills.py
+	modified:   website/scripts/generate-llms-txt.py
+	modified:   website/scripts/generate-skill-docs.py
+	modified:   website/scripts/prebuild.mjs
+	modified:   website/sidebars.ts
+	modified:   website/src/components/AutomationBlueprintsCatalog/index.tsx
+	modified:   website/src/components/AutomationBlueprintsCatalog/styles.module.css
+	modified:   website/src/components/UserStoriesCollage/index.tsx
+	modified:   website/src/components/UserStoriesCollage/styles.module.css
+	modified:   website/src/css/custom.css
+	modified:   website/src/data/userStories.json
+	modified:   website/src/pages/skills/index.tsx
+	modified:   website/src/pages/skills/styles.module.css
+	modified:   website/static/img/docs/cli-layout.svg
+	modified:   website/static/img/docs/session-recap.svg
+	modified:   website/static/img/favicon.svg
+	modified:   website/tsconfig.json
+
+Unmerged paths:
+  (use "git restore --staged <file>..." to unstage)
+  (use "git add <file>..." to mark resolution)
+	both modified:   tests/e2e/test_discord_adapter.py
+	both modified:   tests/gateway/test_api_server_normalize.py
+	both modified:   tests/gateway/test_auto_continue.py
+	both modified:   tests/gateway/test_config.py
+	both modified:   tests/gateway/test_config_cwd_bridge.py
+	both modified:   tests/gateway/test_config_driven_access_policy.py
+	both modified:   tests/gateway/test_document_cache.py
+	both modified:   tests/gateway/test_email.py
+	both modified:   tests/gateway/test_keep_typing_timeout.py
+	both modified:   tests/gateway/test_matrix.py
+	both modified:   tests/gateway/test_restart_resume_pending.py
+	both modified:   tests/gateway/test_run_progress_topics.py
+	both modified:   tests/gateway/test_slack.py
+	both modified:   tests/gateway/test_stream_consumer_draft.py
+	both modified:   tests/gateway/test_stream_consumer_fresh_final.py
+	both modified:   tests/gateway/test_stream_consumer_thread_routing.py
+	both modified:   tests/gateway/test_telegram_group_gating.py
+	both modified:   tests/gateway/test_update_command.py
+	both modified:   tests/gateway/test_webhook_adapter.py
+	both modified:   tests/hermes_cli/test_apply_profile_override.py
+	both modified:   tests/hermes_cli/test_auth_codex_provider.py
+	both modified:   tests/hermes_cli/test_cmd_update_docker.py
+	both modified:   tests/hermes_cli/test_dashboard_auth_gate.py
+	both modified:   tests/hermes_cli/test_dashboard_auth_status_endpoint.py
+	both modified:   tests/hermes_cli/test_detect_api_mode_for_url.py
+	both modified:   tests/hermes_cli/test_doctor.py
+	both modified:   tests/hermes_cli/test_gateway.py
+	both modified:   tests/hermes_cli/test_gateway_service.py
+	both modified:   tests/hermes_cli/test_gemini_provider.py
+	both modified:   tests/hermes_cli/test_mcp_catalog.py
+	both modified:   tests/hermes_cli/test_model_normalize.py
+	both modified:   tests/hermes_cli/test_model_switch_custom_providers.py
+	both modified:   tests/hermes_cli/test_model_validation.py
+	both modified:   tests/hermes_cli/test_plugins_cmd.py
+	both modified:   tests/hermes_cli/test_profiles.py
+	both modified:   tests/hermes_cli/test_send_cmd.py
+	both modified:   tests/hermes_cli/test_subcommands_profile_gateway.py
+	both modified:   tests/hermes_cli/test_telegram_managed_bot.py
+	both modified:   tests/hermes_cli/test_update_concurrent_quarantine.py
+	both modified:   tests/hermes_cli/test_web_oauth_dispatch.py
+	both modified:   tests/hermes_cli/test_web_server.py
+	both modified:   tests/hermes_cli/test_web_server_files.py
+	both modified:   tests/hermes_cli/test_web_server_skills_profiles.py
+	both modified:   tests/plugins/platforms/photon/test_setup_access.py
+	both modified:   tests/run_agent/test_compression_persistence.py
+	both modified:   tests/run_agent/test_image_shrink_recovery.py
+	both modified:   tests/run_agent/test_message_sequence_repair.py
+	both modified:   tests/run_agent/test_run_agent.py
+	both modified:   tests/run_agent/test_run_agent_codex_responses.py
+	both modified:   tests/run_agent/test_thinking_only_sanitizer.py
+	both modified:   tests/test_atomic_replace_symlinks.py
+	both modified:   tests/test_hermes_state.py
+	both modified:   tests/test_run_tests_parallel.py
+	both modified:   tests/test_subprocess_home_isolation.py
+	both modified:   tests/test_tui_gateway_server.py
+	both modified:   tests/test_tui_gateway_ws.py
+	both modified:   tests/test_web_server.py
+	both modified:   tests/tools/test_approval.py
+	both modified:   tests/tools/test_code_execution.py
+	both modified:   tests/tools/test_credential_files.py
+	both modified:   tests/tools/test_file_operations.py
+	both modified:   tests/tools/test_mcp_probe.py
+	both modified:   tests/tools/test_mcp_stability.py
+	both modified:   tests/tools/test_process_registry.py
+	both modified:   tests/tools/test_skills_sync.py
+	both modified:   tests/tools/test_write_deny.py
+	both modified:   tests/tui_gateway/test_make_agent_provider.py
+	both modified:   tests/tui_gateway/test_protocol.py
+	both modified:   tools/approval.py
+	both modified:   tools/code_execution_tool.py
+	both modified:   tools/credential_files.py
+	both modified:   tools/delegate_tool.py
+	both modified:   tools/environments/local.py
+	both modified:   tools/file_operations.py
+	both modified:   tools/file_tools.py
+	both modified:   tools/mcp_tool.py
+	both modified:   tools/process_registry.py
+	both modified:   tools/session_search_tool.py
+	both modified:   tools/skills_sync.py
+	both modified:   tui_gateway/server.py
+	both modified:   tui_gateway/ws.py
+	both modified:   utils.py
+	both modified:   uv.lock
+	both modified:   web/src/i18n/af.ts
+	both modified:   web/src/i18n/de.ts
+	both modified:   web/src/i18n/en.ts
+	both modified:   web/src/i18n/es.ts
+	both modified:   web/src/i18n/fr.ts
+	both modified:   web/src/i18n/ga.ts
+	both modified:   web/src/i18n/hu.ts
+	both modified:   web/src/i18n/it.ts
+	both modified:   web/src/i18n/ja.ts
+	both modified:   web/src/i18n/ko.ts
+	both modified:   web/src/i18n/pt.ts
+	both modified:   web/src/i18n/ru.ts
+	both modified:   web/src/i18n/tr.ts
+	both modified:   web/src/i18n/types.ts
+	both modified:   web/src/i18n/uk.ts
+	both modified:   web/src/i18n/zh-hant.ts
+	both modified:   web/src/i18n/zh.ts
+	both modified:   web/src/lib/api.ts
+	both modified:   web/src/pages/ModelsPage.tsx
+	both modified:   web/src/pages/ProfileBuilderPage.tsx
+	both modified:   web/src/pages/ProfilesPage.tsx
+	both modified:   web/src/pages/SessionsPage.tsx
+	both modified:   website/docs/guides/automate-with-cron.md
+	both modified:   website/docs/guides/cron-troubleshooting.md
+	both modified:   website/docs/reference/cli-commands.md
+	both modified:   website/docs/reference/environment-variables.md
+	both modified:   website/docs/reference/faq.md
+	both modified:   website/docs/reference/profile-commands.md
+	both modified:   website/docs/user-guide/configuration.md
+	both modified:   website/docs/user-guide/docker.md
+	both modified:   website/docs/user-guide/features/cron.md
+	both modified:   website/docs/user-guide/features/delegation.md
+	both modified:   website/docs/user-guide/features/hooks.md
+	both modified:   website/docs/user-guide/messaging/index.md
+	both modified:   website/docs/user-guide/messaging/photon.md
+	both modified:   website/docs/user-guide/messaging/telegram.md
+	both modified:   website/docs/user-guide/profiles.md
+	both modified:   website/docs/user-guide/skills/bundled/media/media-youtube-content.md
+	both modified:   website/docusaurus.config.ts
+	both modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/reference/cli-commands.md
+	both modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/reference/faq.md
+	both modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/reference/profile-commands.md
+	both modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/delegation.md
+	both modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/telegram.md
+	both modified:   website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/profiles.md
+	both modified:   website/package.json
+	both modified:   website/static/api/model-catalog.json
+
+Conflicted files:
+  • tests/e2e/test_discord_adapter.py
+  • tests/gateway/test_api_server_normalize.py
+  • tests/gateway/test_auto_continue.py
+  • tests/gateway/test_config.py
+  • tests/gateway/test_config_cwd_bridge.py
+  • tests/gateway/test_config_driven_access_policy.py
+  • tests/gateway/test_document_cache.py
+  • tests/gateway/test_email.py
+  • tests/gateway/test_keep_typing_timeout.py
+  • tests/gateway/test_matrix.py
+  • tests/gateway/test_restart_resume_pending.py
+  • tests/gateway/test_run_progress_topics.py
+  • tests/gateway/test_slack.py
+  • tests/gateway/test_stream_consumer_draft.py
+  • tests/gateway/test_stream_consumer_fresh_final.py
+  • tests/gateway/test_stream_consumer_thread_routing.py
+  • tests/gateway/test_telegram_group_gating.py
+  • tests/gateway/test_update_command.py
+  • tests/gateway/test_webhook_adapter.py
+  • tests/hermes_cli/test_apply_profile_override.py
+  • tests/hermes_cli/test_auth_codex_provider.py
+  • tests/hermes_cli/test_cmd_update_docker.py
+  • tests/hermes_cli/test_dashboard_auth_gate.py
+  • tests/hermes_cli/test_dashboard_auth_status_endpoint.py
+  • tests/hermes_cli/test_detect_api_mode_for_url.py
+  • tests/hermes_cli/test_doctor.py
+  • tests/hermes_cli/test_gateway.py
+  • tests/hermes_cli/test_gateway_service.py
+  • tests/hermes_cli/test_gemini_provider.py
+  • tests/hermes_cli/test_mcp_catalog.py
+  • tests/hermes_cli/test_model_normalize.py
+  • tests/hermes_cli/test_model_switch_custom_providers.py
+  • tests/hermes_cli/test_model_validation.py
+  • tests/hermes_cli/test_plugins_cmd.py
+  • tests/hermes_cli/test_profiles.py
+  • tests/hermes_cli/test_send_cmd.py
+  • tests/hermes_cli/test_subcommands_profile_gateway.py
+  • tests/hermes_cli/test_telegram_managed_bot.py
+  • tests/hermes_cli/test_update_concurrent_quarantine.py
+  • tests/hermes_cli/test_web_oauth_dispatch.py
+  • tests/hermes_cli/test_web_server.py
+  • tests/hermes_cli/test_web_server_files.py
+  • tests/hermes_cli/test_web_server_skills_profiles.py
+  • tests/plugins/platforms/photon/test_setup_access.py
+  • tests/run_agent/test_compression_persistence.py
+  • tests/run_agent/test_image_shrink_recovery.py
+  • tests/run_agent/test_message_sequence_repair.py
+  • tests/run_agent/test_run_agent.py
+  • tests/run_agent/test_run_agent_codex_responses.py
+  • tests/run_agent/test_thinking_only_sanitizer.py
+  • tests/test_atomic_replace_symlinks.py
+  • tests/test_hermes_state.py
+  • tests/test_run_tests_parallel.py
+  • tests/test_subprocess_home_isolation.py
+  • tests/test_tui_gateway_server.py
+  • tests/test_tui_gateway_ws.py
+  • tests/test_web_server.py
+  • tests/tools/test_approval.py
+  • tests/tools/test_code_execution.py
+  • tests/tools/test_credential_files.py
+  • tests/tools/test_file_operations.py
+  • tests/tools/test_mcp_probe.py
+  • tests/tools/test_mcp_stability.py
+  • tests/tools/test_process_registry.py
+  • tests/tools/test_skills_sync.py
+  • tests/tools/test_write_deny.py
+  • tests/tui_gateway/test_make_agent_provider.py
+  • tests/tui_gateway/test_protocol.py
+  • tools/approval.py
+  • tools/code_execution_tool.py
+  • tools/credential_files.py
+  • tools/delegate_tool.py
+  • tools/environments/local.py
+  • tools/file_operations.py
+  • tools/file_tools.py
+  • tools/mcp_tool.py
+  • tools/process_registry.py
+  • tools/session_search_tool.py
+  • tools/skills_sync.py
+  • tui_gateway/server.py
+  • tui_gateway/ws.py
+  • utils.py
+  • uv.lock
+  • web/src/i18n/af.ts
+  • web/src/i18n/de.ts
+  • web/src/i18n/en.ts
+  • web/src/i18n/es.ts
+  • web/src/i18n/fr.ts
+  • web/src/i18n/ga.ts
+  • web/src/i18n/hu.ts
+  • web/src/i18n/it.ts
+  • web/src/i18n/ja.ts
+  • web/src/i18n/ko.ts
+  • web/src/i18n/pt.ts
+  • web/src/i18n/ru.ts
+  • web/src/i18n/tr.ts
+  • web/src/i18n/types.ts
+  • web/src/i18n/uk.ts
+  • web/src/i18n/zh-hant.ts
+  • web/src/i18n/zh.ts
+  • web/src/lib/api.ts
+  • web/src/pages/ModelsPage.tsx
+  • web/src/pages/ProfileBuilderPage.tsx
+  • web/src/pages/ProfilesPage.tsx
+  • web/src/pages/SessionsPage.tsx
+  • website/docs/guides/automate-with-cron.md
+  • website/docs/guides/cron-troubleshooting.md
+  • website/docs/reference/cli-commands.md
+  • website/docs/reference/environment-variables.md
+  • website/docs/reference/faq.md
+  • website/docs/reference/profile-commands.md
+  • website/docs/user-guide/configuration.md
+  • website/docs/user-guide/docker.md
+  • website/docs/user-guide/features/cron.md
+  • website/docs/user-guide/features/delegation.md
+  • website/docs/user-guide/features/hooks.md
+  • website/docs/user-guide/messaging/index.md
+  • website/docs/user-guide/messaging/photon.md
+  • website/docs/user-guide/messaging/telegram.md
+  • website/docs/user-guide/profiles.md
+  • website/docs/user-guide/skills/bundled/media/media-youtube-content.md
+  • website/docusaurus.config.ts
+  • website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/reference/cli-commands.md
+  • website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/reference/faq.md
+  • website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/reference/profile-commands.md
+  • website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/delegation.md
+  • website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/telegram.md
+  • website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/profiles.md
+  • website/package.json
+  • website/static/api/model-catalog.json
+
+Your stashed changes are preserved — nothing is lost.
+  Stash ref: 0586e8e94f0c57b5eee7acb7bd9b1fd962abfd94
+Working tree reset to clean state.
+Restore your changes later with: git stash apply 0586e8e94f0c57b5eee7acb7bd9b1fd962abfd94
+  ✓ Cleared 81 stale __pycache__ directories
+→ Updating Python dependencies...
+  ✓ Managed uv updated (uv 0.11.21 (5aa65dd7a 2026-06-11 x86_64-pc-windows-msvc))
+
+→ Refreshing 10 active lazy backend(s)...
+  ↑ 1 refreshed: platform.slack
+  ✓ 9 already current
+→ Updating Node.js dependencies...
+  ⚠ npm install failed in repo root
+→ Building web UI...
+    
+    > web@0.0.0 build
+    > tsc -b && vite build
+    
+    [36mvite v7.3.2 [32mbuilding client environment for production...[36m[39m
+    transforming...
+    [32m✓[39m 2318 modules transformed.
+    rendering chunks...
+    computing gzip size...
+    [2m../hermes_cli/web_dist/[22m[32mindex.html                                     [39m[1m[2m    0.51 kB[22m[1m[22m[2m │ gzip:   0.32 kB[22m
+    [2m../hermes_cli/web_dist/[22m[32massets/Mondwest-Regular-CWscgue7.woff2         [39m[1m[2m   23.83 kB[22m[1m[22m
+    [2m../hermes_cli/web_dist/[22m[32massets/RulesExpanded-Regular-l8uVympt.woff2    [39m[1m[2m   33.82 kB[22m[1m[22m
+    [2m../hermes_cli/web_dist/[22m[32massets/RulesExpanded-Bold-DZA7s8Pa.woff2       [39m[1m[2m   35.01 kB[22m[1m[22m
+    [2m../hermes_cli/web_dist/[22m[32massets/RulesCompressed-Regular-BSXFyF4x.woff2  [39m[1m[2m   37.76 kB[22m[1m[22m
+    [2m../hermes_cli/web_dist/[22m[32massets/RulesCompressed-Medium-CA76_CrB.woff2   [39m[1m[2m   38.85 kB[22m[1m[22m
+    [2m../hermes_cli/web_dist/[22m[32massets/Collapse-Bold-mgICk9-_.woff2            [39m[1m[2m   59.14 kB[22m[1m[22m
+    [2m../hermes_cli/web_dist/[22m[32massets/Collapse-Regular-DysayoTY.woff2         [39m[1m[2m   62.82 kB[22m[1m[22m
+    [2m../hermes_cli/web_dist/[22m[32massets/filler-bg0-DxMaWJpb.webp                [39m[1m[2m  185.27 kB[22m[1m[22m
+    [2m../hermes_cli/web_dist/[22m[35massets/index-BUoSfK_S.css                      [39m[1m[2m  110.45 kB[22m[1m[22m[2m │ gzip:  17.46 kB[22m
+    [2m../hermes_cli/web_dist/[22m[36massets/index-B0nqHgi2.js                       [39m[1m[33m1,876.74 kB[39m[22m[2m │ gzip: 539.12 kB[22m
+    [33m
+    (!) Some chunks are larger than 500 kB after minification. Consider:
+    - Using dynamic import() to code-split the application
+    - Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+    - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.[39m
+    [32m✓ built in 14.86s[39m
+  ✓ Web UI built
+→ Checking if desktop app needs rebuilding...
+  ⚠ Desktop build failed (non-fatal; run `hermes desktop` to retry)
+
+✓ Code updated!
+  ✓ Model catalog cache refreshed from checkout
+
+→ Syncing bundled skills...
+  ✓ Skills are up to date
+
+→ Syncing bundled skills to all profiles...
+  default: up to date
+
+→ Checking configuration for new options...
+  ✓ Configuration is up to date
+
+✓ Update complete!
+
+ℹ Skill curator
+  Background skill maintenance is enabled. First pass is deferred ~7d after installation; only agent-created skills are in scope and nothing is ever auto-deleted (archive is recoverable).
+  Preview now:  hermes curator run --dry-run
+  Pause it:     hermes curator pause
+  Docs:         https://hermes-agent.nousresearch.com/docs/user-guide/features/curator
+
+Tip: You can now select a provider and model:
+  hermes model              # Select provider and model

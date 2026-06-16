@@ -1,0 +1,67 @@
+{
+  "3d-asset-workflow": {
+    "archived_at": null,
+    "created_at": "2026-06-14T07:50:50.869220+00:00",
+    "created_by": "agent",
+    "last_patched_at": "2026-06-14T08:09:27.042020+00:00",
+    "last_used_at": "2026-06-14T08:09:30.253895+00:00",
+    "last_viewed_at": "2026-06-14T08:09:30.240050+00:00",
+    "patch_count": 4,
+    "pinned": false,
+    "state": "active",
+    "use_count": 2,
+    "view_count": 2
+  },
+  "exploit-framework-development": {
+    "archived_at": null,
+    "created_at": "2026-06-14T14:14:06.881010+00:00",
+    "created_by": "agent",
+    "last_patched_at": "2026-06-14T14:31:46.816494+00:00",
+    "last_used_at": "2026-06-14T14:31:07.037310+00:00",
+    "last_viewed_at": "2026-06-14T14:31:07.018256+00:00",
+    "patch_count": 4,
+    "pinned": false,
+    "state": "active",
+    "use_count": 2,
+    "view_count": 2
+  },
+  "hermes-agent": {
+    "archived_at": null,
+    "created_at": "2026-06-14T13:16:57.890465+00:00",
+    "created_by": null,
+    "last_patched_at": null,
+    "last_used_at": "2026-06-16T14:27:49.923692+00:00",
+    "last_viewed_at": "2026-06-16T14:27:49.912185+00:00",
+    "patch_count": 0,
+    "pinned": false,
+    "state": "active",
+    "use_count": 5,
+    "view_count": 5
+  },
+  "pentest-target-deployment": {
+    "archived_at": null,
+    "created_at": "2026-06-14T12:05:39.724546+00:00",
+    "created_by": "agent",
+    "last_patched_at": "2026-06-14T15:41:46.585235+00:00",
+    "last_used_at": "2026-06-14T15:40:55.996552+00:00",
+    "last_viewed_at": "2026-06-14T15:40:55.970183+00:00",
+    "patch_count": 4,
+    "pinned": false,
+    "state": "active",
+    "use_count": 3,
+    "view_count": 3
+  },
+  "python-project-packaging": {
+    "archived_at": null,
+    "created_at": "2026-06-14T12:25:54.689045+00:00",
+    "created_by": "agent",
+    "last_patched_at": null,
+    "last_used_at": null,
+    "last_viewed_at": null,
+    "patch_count": 0,
+    "pinned": false,
+    "state": "active",
+    "use_count": 0,
+    "view_count": 0
+  }
+}

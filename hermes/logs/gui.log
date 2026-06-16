@@ -1,0 +1,148 @@
+2026-06-12 20:44:00,840 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/hermes-achievements/
+2026-06-12 20:44:01,019 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/kanban/
+2026-06-12 20:44:01,471 INFO hermes_cli.web_server: Desktop cron ticker started (interval=60s)
+2026-06-12 20:44:36,748 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/hermes-achievements/
+2026-06-12 20:44:36,814 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/kanban/
+2026-06-12 20:44:36,903 INFO hermes_cli.web_server: Desktop cron ticker started (interval=60s)
+2026-06-12 20:52:06,952 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/hermes-achievements/
+2026-06-12 20:52:07,020 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/kanban/
+2026-06-12 20:52:07,104 INFO hermes_cli.web_server: Desktop cron ticker started (interval=60s)
+2026-06-12 20:52:07,851 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:56385
+2026-06-12 21:00:35,944 WARNING tui_gateway.server: config.yaml has empty section(s): `max_concurrent_sessions`. Remove the line(s) or set them to `{}` — empty sections silently drop nested settings.
+2026-06-12 21:14:37,889 WARNING tui_gateway.server: config.yaml has empty section(s): `max_concurrent_sessions`. Remove the line(s) or set them to `{}` — empty sections silently drop nested settings.
+2026-06-12 21:18:32,594 WARNING tui_gateway.server: config.yaml has empty section(s): `max_concurrent_sessions`. Remove the line(s) or set them to `{}` — empty sections silently drop nested settings.
+2026-06-12 21:22:56,482 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/hermes-achievements/
+2026-06-12 21:22:56,548 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/kanban/
+2026-06-12 21:22:56,632 INFO hermes_cli.web_server: Desktop cron ticker started (interval=60s)
+2026-06-12 21:22:57,251 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:60783
+2026-06-12 22:31:38,645 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/hermes-achievements/
+2026-06-12 22:31:38,748 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/kanban/
+2026-06-12 22:31:38,898 INFO hermes_cli.web_server: Desktop cron ticker started (interval=60s)
+2026-06-12 22:31:39,435 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:53549
+2026-06-12 22:44:40,751 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/hermes-achievements/
+2026-06-12 22:44:40,812 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/kanban/
+2026-06-12 22:44:40,885 INFO hermes_cli.web_server: Desktop cron ticker started (interval=60s)
+2026-06-12 22:44:41,642 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:55946
+2026-06-13 13:12:34,185 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/hermes-achievements/
+2026-06-13 13:12:34,328 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/kanban/
+2026-06-13 13:12:34,480 INFO hermes_cli.web_server: Desktop cron ticker started (interval=60s)
+2026-06-13 13:12:35,016 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:55463
+2026-06-13 13:13:05,461 WARNING tui_gateway.server: config.yaml has empty section(s): `max_concurrent_sessions`. Remove the line(s) or set them to `{}` — empty sections silently drop nested settings.
+2026-06-14 15:12:53,011 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/hermes-achievements/
+2026-06-14 15:12:53,181 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/kanban/
+2026-06-14 15:12:53,447 INFO hermes_cli.web_server: Desktop cron ticker started (interval=60s)
+2026-06-14 15:12:54,125 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:61262
+2026-06-14 15:14:55,987 WARNING tui_gateway.server: config.yaml has empty section(s): `max_concurrent_sessions`. Remove the line(s) or set them to `{}` — empty sections silently drop nested settings.
+2026-06-14 16:27:34,424 INFO tui_gateway.ws: ws closed peer=127.0.0.1:61262 reason=client_disconnect(code=1006,reason=) messages=642 parse_errors=0 dispatch_crashes=0 send_failures=0 reaped_sessions=0 detached_sessions=1
+2026-06-14 16:44:05,511 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:54103
+2026-06-14 16:46:44,121 INFO tui_gateway.ws: ws closed peer=127.0.0.1:54103 reason=client_disconnect(code=1006,reason=) messages=28 parse_errors=0 dispatch_crashes=0 send_failures=0 reaped_sessions=0 detached_sessions=0
+2026-06-14 16:46:50,358 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:61920
+2026-06-14 17:49:02,967 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:54111
+2026-06-14 17:49:02,991 WARNING tui_gateway.ws: ws send failed peer=127.0.0.1:54111 error_type=WebSocketDisconnect error=
+2026-06-14 17:49:03,002 ERROR tui_gateway.ws: ws ready frame send failed peer=127.0.0.1:54111
+2026-06-14 17:49:03,295 INFO tui_gateway.ws: ws closed peer=127.0.0.1:54111 reason=ready_send_failed messages=0 parse_errors=0 dispatch_crashes=0 send_failures=1 reaped_sessions=0 detached_sessions=0
+2026-06-14 18:17:34,028 WARNING tui_gateway.ws: ws send failed peer=127.0.0.1:61920 error_type=WebSocketDisconnect error=
+2026-06-14 18:17:34,030 WARNING tui_gateway.ws: ws response send failed peer=127.0.0.1:61920 id=671 method=model.options
+2026-06-14 18:17:34,036 INFO tui_gateway.ws: ws closed peer=127.0.0.1:61920 reason=send_failed_after_response messages=1 parse_errors=0 dispatch_crashes=0 send_failures=1 reaped_sessions=0 detached_sessions=0
+2026-06-14 18:17:34,450 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:60892
+2026-06-14 18:17:36,965 WARNING tui_gateway.ws: ws send failed peer=127.0.0.1:60892 error_type=WebSocketDisconnect error=
+2026-06-14 18:17:36,981 WARNING tui_gateway.ws: ws response send failed peer=127.0.0.1:60892 id=679 method=setup.runtime_check
+2026-06-14 18:17:37,156 INFO tui_gateway.ws: ws closed peer=127.0.0.1:60892 reason=send_failed_after_response messages=2 parse_errors=0 dispatch_crashes=0 send_failures=1 reaped_sessions=0 detached_sessions=0
+2026-06-14 18:34:38,438 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:63239
+2026-06-14 18:34:41,101 WARNING tui_gateway.ws: ws send failed peer=127.0.0.1:63239 error_type=WebSocketDisconnect error=
+2026-06-14 18:34:41,446 INFO tui_gateway.ws: ws closed peer=127.0.0.1:63239 reason=client_disconnect(code=1006,reason=) messages=5 parse_errors=0 dispatch_crashes=0 send_failures=0 reaped_sessions=0 detached_sessions=1
+2026-06-14 19:16:11,235 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:59715
+2026-06-14 20:03:21,570 WARNING tui_gateway.ws: ws write failed peer=127.0.0.1:59715 error_type=TimeoutError error=
+2026-06-14 20:03:24,749 WARNING tui_gateway.ws: ws response send failed peer=127.0.0.1:59715 id=1070 method=setup.runtime_check
+2026-06-14 20:03:25,219 INFO tui_gateway.ws: ws closed peer=127.0.0.1:59715 reason=send_failed_after_response messages=384 parse_errors=0 dispatch_crashes=0 send_failures=1 reaped_sessions=0 detached_sessions=1
+2026-06-14 20:03:35,165 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:57494
+2026-06-14 20:07:27,428 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/hermes-achievements/
+2026-06-14 20:07:27,502 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/kanban/
+2026-06-14 20:07:27,620 INFO hermes_cli.web_server: Desktop cron ticker started (interval=60s)
+2026-06-14 20:07:28,261 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:57052
+2026-06-14 20:35:57,587 INFO tui_gateway.ws: ws closed peer=127.0.0.1:57052 reason=client_disconnect(code=1006,reason=) messages=236 parse_errors=0 dispatch_crashes=0 send_failures=0 reaped_sessions=0 detached_sessions=1
+2026-06-14 20:36:35,422 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:62434
+2026-06-14 21:04:18,421 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/hermes-achievements/
+2026-06-14 21:04:18,490 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/kanban/
+2026-06-14 21:04:18,572 INFO hermes_cli.web_server: Desktop cron ticker started (interval=60s)
+2026-06-14 21:04:19,251 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:57724
+2026-06-14 21:21:02,538 WARNING tui_gateway.server: config.yaml has empty section(s): `max_concurrent_sessions`. Remove the line(s) or set them to `{}` — empty sections silently drop nested settings.
+2026-06-14 21:27:00,779 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/hermes-achievements/
+2026-06-14 21:27:00,855 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/kanban/
+2026-06-14 21:27:00,936 INFO hermes_cli.web_server: Desktop cron ticker started (interval=60s)
+2026-06-14 21:27:01,710 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:55111
+2026-06-14 21:29:10,348 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/hermes-achievements/
+2026-06-14 21:29:10,481 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/kanban/
+2026-06-14 21:29:10,845 INFO hermes_cli.web_server: Desktop cron ticker started (interval=60s)
+2026-06-14 21:29:13,878 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:58912
+2026-06-14 21:54:07,461 WARNING tui_gateway.server: config.yaml has empty section(s): `max_concurrent_sessions`. Remove the line(s) or set them to `{}` — empty sections silently drop nested settings.
+2026-06-14 23:55:58,882 WARNING tui_gateway.server: config.yaml has empty section(s): `max_concurrent_sessions`. Remove the line(s) or set them to `{}` — empty sections silently drop nested settings.
+2026-06-15 00:13:27,150 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/hermes-achievements/
+2026-06-15 00:13:27,227 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/kanban/
+2026-06-15 00:13:27,313 INFO hermes_cli.web_server: Desktop cron ticker started (interval=60s)
+2026-06-15 00:13:27,882 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:50612
+2026-06-15 00:13:42,287 WARNING tui_gateway.server: config.yaml has empty section(s): `max_concurrent_sessions`. Remove the line(s) or set them to `{}` — empty sections silently drop nested settings.
+2026-06-15 11:51:10,799 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/hermes-achievements/
+2026-06-15 11:51:10,914 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/kanban/
+2026-06-15 11:51:11,090 INFO hermes_cli.web_server: Desktop cron ticker started (interval=60s)
+2026-06-15 11:51:11,759 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:56186
+2026-06-15 22:41:18,015 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/hermes-achievements/
+2026-06-15 22:41:18,275 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/kanban/
+2026-06-15 22:41:18,977 INFO hermes_cli.web_server: Desktop cron ticker started (interval=60s)
+2026-06-15 22:41:20,006 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:60184
+2026-06-15 22:43:31,744 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/hermes-achievements/
+2026-06-15 22:43:31,808 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/kanban/
+2026-06-15 22:43:31,898 INFO hermes_cli.web_server: Desktop cron ticker started (interval=60s)
+2026-06-15 22:43:32,375 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:58087
+2026-06-16 17:37:42,117 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/hermes-achievements/
+2026-06-16 17:37:42,208 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/kanban/
+2026-06-16 17:37:42,366 INFO hermes_cli.web_server: Desktop cron ticker started (interval=60s)
+2026-06-16 17:37:43,126 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:60394
+2026-06-16 17:38:22,071 WARNING tui_gateway.server: config.yaml has empty section(s): `max_concurrent_sessions`. Remove the line(s) or set them to `{}` — empty sections silently drop nested settings.
+2026-06-16 17:47:12,206 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/hermes-achievements/
+2026-06-16 17:47:12,269 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/kanban/
+2026-06-16 17:47:12,332 INFO hermes_cli.web_server: Desktop cron ticker started (interval=60s)
+2026-06-16 17:47:13,055 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:60506
+2026-06-16 17:55:17,619 WARNING tui_gateway.server: config.yaml has empty section(s): `max_concurrent_sessions`. Remove the line(s) or set them to `{}` — empty sections silently drop nested settings.
+2026-06-16 18:12:56,988 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/hermes-achievements/
+2026-06-16 18:12:57,050 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/kanban/
+2026-06-16 18:12:57,116 INFO hermes_cli.web_server: Desktop cron ticker started (interval=60s)
+2026-06-16 18:12:57,937 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:62653
+2026-06-16 18:15:07,647 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/hermes-achievements/
+2026-06-16 18:15:07,709 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/kanban/
+2026-06-16 18:15:07,770 INFO hermes_cli.web_server: Desktop cron ticker started (interval=60s)
+2026-06-16 18:15:08,521 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:65037
+2026-06-16 18:21:21,201 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/hermes-achievements/
+2026-06-16 18:21:21,267 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/kanban/
+2026-06-16 18:21:21,327 INFO hermes_cli.web_server: Desktop cron ticker started (interval=60s)
+2026-06-16 18:21:21,841 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:58520
+2026-06-16 22:13:35,775 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/hermes-achievements/
+2026-06-16 22:13:35,866 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/kanban/
+2026-06-16 22:13:36,002 INFO hermes_cli.web_server: Desktop cron ticker started (interval=60s)
+2026-06-16 22:13:36,753 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:62231
+2026-06-16 22:14:00,759 WARNING tui_gateway.server: config.yaml has empty section(s): `max_concurrent_sessions`. Remove the line(s) or set them to `{}` — empty sections silently drop nested settings.
+2026-06-16 22:15:24,396 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/hermes-achievements/
+2026-06-16 22:15:24,459 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/kanban/
+2026-06-16 22:15:24,517 INFO hermes_cli.web_server: Desktop cron ticker started (interval=60s)
+2026-06-16 22:15:25,039 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:60141
+2026-06-16 22:15:48,136 WARNING tui_gateway.server: config.yaml has empty section(s): `max_concurrent_sessions`. Remove the line(s) or set them to `{}` — empty sections silently drop nested settings.
+2026-06-16 22:18:27,197 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/hermes-achievements/
+2026-06-16 22:18:27,268 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/kanban/
+2026-06-16 22:18:27,328 INFO hermes_cli.web_server: Desktop cron ticker started (interval=60s)
+2026-06-16 22:18:27,874 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:50688
+2026-06-16 22:20:26,345 WARNING tui_gateway.server: config.yaml has empty section(s): `max_concurrent_sessions`. Remove the line(s) or set them to `{}` — empty sections silently drop nested settings.
+2026-06-16 22:23:04,895 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/hermes-achievements/
+2026-06-16 22:23:04,966 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/kanban/
+2026-06-16 22:23:05,033 INFO hermes_cli.web_server: Desktop cron ticker started (interval=60s)
+2026-06-16 22:23:05,555 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:54649
+2026-06-16 22:23:29,644 WARNING tui_gateway.server: config.yaml has empty section(s): `max_concurrent_sessions`. Remove the line(s) or set them to `{}` — empty sections silently drop nested settings.
+2026-06-16 22:25:44,879 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/hermes-achievements/
+2026-06-16 22:25:44,942 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/kanban/
+2026-06-16 22:25:45,001 INFO hermes_cli.web_server: Desktop cron ticker started (interval=60s)
+2026-06-16 22:25:45,496 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:56521
+2026-06-16 22:27:45,957 WARNING tui_gateway.server: config.yaml has empty section(s): `max_concurrent_sessions`. Remove the line(s) or set them to `{}` — empty sections silently drop nested settings.
+2026-06-16 22:28:43,079 WARNING tui_gateway.server: config.yaml has empty section(s): `max_concurrent_sessions`. Remove the line(s) or set them to `{}` — empty sections silently drop nested settings.
+2026-06-16 22:31:12,959 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/hermes-achievements/
+2026-06-16 22:31:13,020 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/kanban/
+2026-06-16 22:31:13,074 INFO hermes_cli.web_server: Desktop cron ticker started (interval=60s)
+2026-06-16 22:31:13,604 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:62152
