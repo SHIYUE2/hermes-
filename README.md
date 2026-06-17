@@ -3,9 +3,7 @@
 ```markdown
 # Hermes Agent 便携版 (Windows Only)
 
-<p align="center">
-  
-</p >
+请完整阅读介绍文档内附一键包下载链接
 
 > **The Agent That Grows With You**
 > 基于 Nous Research 官方开源项目构建的 Windows 专属绿色便携版。
