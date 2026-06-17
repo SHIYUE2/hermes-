@@ -1,2 +1,3 @@
 # hermes-
 基于原版hermes所改编的的hermes便携版本，自带运行环境，在没有任何损失的情况下可以运行于任何windows
+详情见左上角改变分支为master内
